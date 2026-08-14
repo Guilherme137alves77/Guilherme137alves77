@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" role="img" aria-label="Stack — from hardware to automation">
+  <rect width="620" height="360" rx="14" fill="#080B10"/>
+
+  <!-- header -->
+  <text x="30" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8B949E">~/lab/stack</text>
+  <rect x="156" y="28" width="8" height="15" fill="#38BDF8" opacity="0.9"/>
+
+  <!-- layer 05 — top -->
+  <rect x="30" y="70" width="470" height="38" rx="8" fill="#111820" stroke="#1C2733"/>
+  <text x="48" y="94" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6E7681">05</text>
+  <text x="88" y="94" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1" fill="#7DD3FC">DEVELOPMENT / AUTOMATION</text>
+  <text x="484" y="94" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end" fill="#6E7681">python · bash</text>
+  <polygon points="265,110 258,118 272,118" fill="#1C2733"/>
+
+  <!-- layer 04 -->
+  <rect x="30" y="120" width="470" height="38" rx="8" fill="#111820" stroke="#1C2733"/>
+  <text x="48" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6E7681">04</text>
+  <text x="88" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1" fill="#38BDF8">SECURITY — OFF + DEF</text>
+  <text x="484" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end" fill="#6E7681">soc · pentest</text>
+  <polygon points="265,160 258,168 272,168" fill="#1C2733"/>
+
+  <!-- layer 03 -->
+  <rect x="30" y="170" width="470" height="38" rx="8" fill="#111820" stroke="#1C2733"/>
+  <text x="48" y="194" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6E7681">03</text>
+  <text x="88" y="194" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1" fill="#2DD4BF">NETWORKS / PROTOCOLS</text>
+  <text x="484" y="194" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end" fill="#6E7681">tcp/ip · dns</text>
+  <polygon points="265,210 258,218 272,218" fill="#1C2733"/>
+
+  <!-- layer 02 -->
+  <rect x="30" y="220" width="470" height="38" rx="8" fill="#111820" stroke="#1C2733"/>
+  <text x="48" y="244" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6E7681">02</text>
+  <text x="88" y="244" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1" fill="#E6EDF3">OS / LINUX</text>
+  <text x="484" y="244" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end" fill="#6E7681">kernel · fedora</text>
+  <polygon points="265,260 258,268 272,268" fill="#1C2733"/>
+
+  <!-- layer 01 — bottom -->
+  <rect x="30" y="270" width="470" height="38" rx="8" fill="#111820" stroke="#1C2733"/>
+  <text x="48" y="294" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6E7681">01</text>
+  <text x="88" y="294" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="1" fill="#8B949E">HARDWARE / ARCHITECTURE</text>
+  <text x="484" y="294" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="end" fill="#6E7681">x86 · risc-v</text>
+
+  <!-- right spine -->
+  <line x1="580" y1="72" x2="580" y2="302" stroke="#1C2733" stroke-width="2"/>
+  <circle cx="580" cy="89" r="3" fill="#7DD3FC"/>
+  <circle cx="580" cy="139" r="3" fill="#38BDF8"/>
+  <circle cx="580" cy="189" r="3" fill="#2DD4BF"/>
+  <circle cx="580" cy="239" r="3" fill="#E6EDF3"/>
+  <circle cx="580" cy="289" r="3" fill="#8B949E"/>
+</svg>

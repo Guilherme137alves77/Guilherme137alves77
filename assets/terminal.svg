@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Terminal — guilherme@lab">
+  <rect x="0" y="0" width="1000" height="380" rx="14" fill="#0D1117" stroke="#1C2733" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="1000" height="44" rx="14" fill="#111820"/>
+  <rect x="0" y="22" width="1000" height="22" fill="#111820"/>
+  <rect x="0" y="44" width="1000" height="1" fill="#1C2733"/>
+  <circle cx="28" cy="22" r="5.5" fill="#38BDF8" opacity="0.5"/>
+  <circle cx="48" cy="22" r="5.5" fill="#1C2733"/>
+  <circle cx="68" cy="22" r="5.5" fill="#1C2733"/>
+  <text x="500" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8B949E">guilherme@lab: ~ — zsh</text>
+
+  <!-- body -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+    <text x="44" y="76" fill="#38BDF8">$</text>
+    <text x="60" y="76" fill="#E6EDF3">whoami</text>
+    <text x="44" y="98" fill="#2DD4BF">guilherme</text>
+
+    <text x="44" y="142" fill="#38BDF8">$</text>
+    <text x="60" y="142" fill="#E6EDF3">focus</text>
+    <text x="44" y="164" fill="#2DD4BF">cybersecurity</text>
+
+    <text x="44" y="208" fill="#38BDF8">$</text>
+    <text x="60" y="208" fill="#E6EDF3">system</text>
+    <text x="44" y="230" fill="#2DD4BF">linux</text>
+
+    <text x="44" y="274" fill="#38BDF8">$</text>
+    <text x="60" y="274" fill="#E6EDF3">learning</text>
+    <text x="44" y="296" fill="#38BDF8">security</text>
+    <text x="116" y="296" fill="#8B949E"> + </text>
+    <text x="140" y="296" fill="#2DD4BF">systems</text>
+    <text x="200" y="296" fill="#8B949E"> + </text>
+    <text x="224" y="296" fill="#7DD3FC">development</text>
+
+    <text x="44" y="340" fill="#38BDF8">$</text>
+    <text x="60" y="340" fill="#E6EDF3">status</text>
+    <text x="44" y="362" fill="#4ADE80">building...</text>
+    <rect x="140" y="349" width="7" height="14" fill="#4ADE80" opacity="0.9"/>
+  </g>
+</svg>

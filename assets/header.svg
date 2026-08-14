@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Guilherme Alves — Information Security Student">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B10"/>
+      <stop offset="1" stop-color="#0B1018"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#1C2733"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bgGrad)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+  <rect width="1200" height="340" fill="url(#glow)"/>
+
+  <rect x="0" y="0" width="1200" height="2" fill="url(#lineGrad)"/>
+  <rect x="0" y="338" width="1200" height="2" fill="url(#lineGrad)" opacity="0.4"/>
+
+  <!-- network nodes -->
+  <g opacity="0.7">
+    <line x1="940" y1="60" x2="1040" y2="120" stroke="#1C2733" stroke-width="1.5"/>
+    <line x1="1040" y1="120" x2="1120" y2="80" stroke="#1C2733" stroke-width="1.5"/>
+    <line x1="1040" y1="120" x2="1100" y2="200" stroke="#1C2733" stroke-width="1.5"/>
+    <line x1="1100" y1="200" x2="1010" y2="210" stroke="#1C2733" stroke-width="1.5"/>
+    <line x1="940" y1="60" x2="1010" y2="210" stroke="#38BDF8" stroke-width="1" opacity="0.35"/>
+    <circle cx="940" cy="60" r="3" fill="#1C2733"/>
+    <circle cx="1040" cy="120" r="3.5" fill="#38BDF8" opacity="0.8"/>
+    <circle cx="1120" cy="80" r="3" fill="#1C2733"/>
+    <circle cx="1100" cy="200" r="3" fill="#1C2733"/>
+    <circle cx="1010" cy="210" r="3" fill="#2DD4BF" opacity="0.8"/>
+  </g>
+
+  <!-- hex faint -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E" opacity="0.26">
+    <text x="150" y="70">0x7F 0x45 0x4C 0x46</text>
+    <text x="150" y="88">eth0: 10.0.2.15</text>
+    <text x="950" y="250">0x080B10 · 0x38BDF8</text>
+    <text x="950" y="268">tcp/443 → ESTABLISHED</text>
+  </g>
+
+  <!-- terminal hint -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+    <text x="40" y="300" fill="#8B949E">$ </text>
+    <text x="58" y="300" fill="#E6EDF3">./init.sh</text>
+    <text x="118" y="300" fill="#8B949E">--target</text>
+    <text x="150" y="300" fill="#38BDF8">cybersecurity</text>
+    <rect x="252" y="287" width="8" height="16" fill="#38BDF8" opacity="0.9"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="7" fill="url(#titleGrad)">GUILHERME ALVES</text>
+
+  <rect x="540" y="182" width="120" height="3" rx="1.5" fill="url(#titleGrad)" opacity="0.9"/>
+
+  <!-- subtitle -->
+  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="2" fill="#8B949E">Information Security Student  ·  Cybersecurity  ·  Linux  ·  Developer</text>
+
+  <!-- chips -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="450" y="262" fill="#38BDF8">[ cybersecurity ]</text>
+    <text x="530" y="262" fill="#8B949E" letter-spacing="0">×</text>
+    <text x="610" y="262" fill="#2DD4BF">[ linux ]</text>
+    <text x="690" y="262" fill="#8B949E" letter-spacing="0">×</text>
+    <text x="770" y="262" fill="#7DD3FC">[ development ]</text>
+  </g>
+</svg>
