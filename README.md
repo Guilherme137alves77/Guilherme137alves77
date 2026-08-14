@@ -17,8 +17,7 @@
 # Guilherme Alves
 
 > Estudante iniciante de cibersegurança — sem experiência profissional e sem
-> certificações ainda. Constância antes de hype: 1 tópico por dia.
-
+> certificações ainda.
 ---
 
 ## `// status`
