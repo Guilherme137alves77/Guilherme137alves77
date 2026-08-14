@@ -1,188 +1,106 @@
 <!--
-  ═══════════════════════════════════════════════════════════════
-  GitHub Profile README — Cybersecurity Engineering Lab
-  ───────────────────────────────────────────────────────────────
-  Este README é um template com tokens como your-username.
+  README do perfil · Guilherme Alves
+  Tom honesto: trilha em andamento (iniciante sério). Nada de inflar skills.
 
-  1) Edite scripts/config.json com seus dados reais
-  2) Rode:  python3 scripts/generate-profile.py
-  3) Publique o conteúdo (README.md + assets/) na raiz do repo
-     <seu-usuario>/<seu-usuario>
-  ═══════════════════════════════════════════════════════════════
+  AJUSTE AQUI:
+  - nome e descrição no header
+  - links na seção contato
+  - atualize o "dia:" e a barra de progresso conforme avançar
 -->
 
-<div style="background-color:#080B10;color:#E6EDF3">
-
-<br>
-
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — Information Security Student | Cybersecurity | Linux | Developer" />
+  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — em trilha para engenheiro de segurança · dia 2/365" />
 </p>
 
 <br>
 
-<!-- ═══════════ ABOUT ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// about_me</code>
-</p>
+# Guilherme Alves
 
-<table>
-  <tr>
-    <td width="58%" valign="middle">
-      <p style="font-size:15px">
-        Information Security student focused on understanding how systems work,
-        how they fail, and how they can be secured.
-      </p>
-      <br>
-      <p style="font-size:15px">
-        <span style="color:#38BDF8">Cybersecurity</span>
-        <span style="color:#8B949E">→</span>
-        <span style="color:#E6EDF3">Systems</span>
-        <span style="color:#8B949E">→</span>
-        <span style="color:#2DD4BF">Networks</span>
-        <span style="color:#8B949E">→</span>
-        <span style="color:#E6EDF3">Development</span>
-        <span style="color:#8B949E">→</span>
-        <span style="color:#7DD3FC">Automation</span>
-      </p>
-      <br>
-      <p style="font-size:15px;color:#8B949E">
-        I build tools, break things on purpose, and document what I learn along the way.
-      </p>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <img src="assets/architecture.svg" width="380" alt="Stack — from hardware to automation" />
-    </td>
-  </tr>
-</table>
+> Estudante iniciante de cibersegurança — sem experiência profissional e sem
+> certificações ainda. Constância antes de hype: 1 tópico por dia.
 
 ---
 
-<!-- ═══════════ LEARNING ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// currently_learning</code>
-</p>
+## `// status`
 
-<p align="center">
-  <img src="assets/learning.svg" width="100%" alt="Currently learning — Security, Systems, Development" />
-</p>
+```
+roadmap .......... 365 dias (1 tópico por dia)
+dia .............. 2 / 365
+módulo ........... fundamentos de bits
+foco de hoje ..... complemento de dois, inteiros com sinal, overflow/underflow
+```
 
----
+```
+[█░░░░░░░░░░░░░░░░░░░]  dia 2 / 365 · ~0,5%
+```
 
-<!-- ═══════════ PROJECTS ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// selected_projects</code>
-</p>
+Módulo atual — **Fundamentos de Bits**:
 
-<table>
-  <thead>
-    <tr>
-      <th style="color:#8B949E">project</th>
-      <th style="color:#8B949E">description</th>
-      <th style="color:#8B949E">stack</th>
-      <th style="color:#8B949E">status</th>
-      <th style="color:#8B949E">repo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b style="color:#E6EDF3">SENTINEL</b></td>
-      <td style="color:#E6EDF3">Security automation / monitoring project</td>
-      <td><code>Python · Networking · IDS · Automation</code></td>
-      <td><span style="color:#2DD4BF">● ACTIVE</span></td>
-      <td align="center"><a href="https://github.com/your-username/sentinel">↗</a></td>
-    </tr>
-    <tr>
-      <td><b style="color:#8B949E">YOUR_PROJECT_02</b></td>
-      <td style="color:#8B949E">Short description — replace this row</td>
-      <td><code style="color:#8B949E">Tech · Tech · Tech</code></td>
-      <td><span style="color:#8B949E">○ draft</span></td>
-      <td align="center"><a href="https://github.com/your-username">↗</a></td>
-    </tr>
-    <tr>
-      <td><b style="color:#8B949E">YOUR_PROJECT_03</b></td>
-      <td style="color:#8B949E">Short description — replace this row</td>
-      <td><code style="color:#8B949E">Tech · Tech · Tech</code></td>
-      <td><span style="color:#8B949E">○ draft</span></td>
-      <td align="center"><a href="https://github.com/your-username">↗</a></td>
-    </tr>
-  </tbody>
-</table>
+- [x] Dia 1 — binário, decimal, hex e octal
+- [ ] Dia 2 — complemento de dois, inteiros com sinal, overflow/underflow *(hoje)*
+- [ ] Dia 3 — endianness, ASCII/UTF-8
+- [ ] Dia 4 — IEEE 754
+- [ ] Dia 5 — `xxd` / `hexdump`
 
-<p align="center">
-  <code style="color:#8B949E;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px">~ more repos → https://github.com/your-username?tab=repositories</code>
-</p>
+<!-- atualize "dia:", a barra e os checkboxes todo dia -->
 
 ---
 
-<!-- ═══════════ JOURNEY ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// cybersecurity_journey</code>
-</p>
+## `// trilha de aprendizado`
 
-<p align="center">
-  <img src="assets/timeline.svg" width="560" alt="Cybersecurity journey — roadmap" />
-</p>
+| Fase | Tópicos | Status |
+| --- | --- | --- |
+| Fundamentos | bits, inteiros, endianness, ASCII/UTF-8, IEEE 754, hexdump | **em andamento** |
+| Baixo nível | arquitetura de computador, C, assembly x86/x64, debuggers | planejado |
+| Exploração | mitigations, exploit development, reverse engineering, malware | planejado |
+| Operacional | Linux red/blue, redes, web security, blue team/SIEM, DFIR, CTF | planejado |
 
----
-
-<!-- ═══════════ LAB ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// security_lab</code>
-</p>
-
-<p align="center">
-  <img src="assets/lab.svg" width="100%" alt="Security lab — tools and platforms" />
-</p>
+Hoje eu estudo os fundamentos. As demais fases estão no roadmap — ainda não chegou a hora.
 
 ---
 
-<!-- ═══════════ STATS ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// github_stats</code>
-</p>
+## `// ferramentas`
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=your-username&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;icon_color=2DD4BF&amp;text_color=E6EDF3" width="450" alt="GitHub stats" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;text_color=E6EDF3" width="450" alt="Most used languages" />
-    </td>
-  </tr>
-</table>
+**Linguagens (nível iniciante — estou aprendendo)**
 
----
+![Python](https://img.shields.io/badge/Python-iniciante-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-iniciante-e76f00?style=flat&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-iniciando-A8B9CC?style=flat&logo=c&logoColor=black)
 
-<!-- ═══════════ TERMINAL ═══════════ -->
-<p align="center">
-  <code style="color:#38BDF8;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px">// identity</code>
-</p>
+**Ambiente e ferramentas**
 
-<p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Terminal — whoami / focus / system / learning / status" />
-</p>
+![Linux](https://img.shields.io/badge/Linux-uso_diario-FCC624?style=flat&logo=linux&logoColor=black)
+![GNU Bash](https://img.shields.io/badge/GNU_Bash-basico-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-basico-F05032?style=flat&logo=git&logoColor=white)
+
+Em uso no módulo atual: `xxd` · `hexdump` · `gcc` · `CyberChef` · `Khan Academy`
 
 ---
 
-<!-- ═══════════ FOOTER ═══════════ -->
-<br>
+## `// método`
 
-<div align="center">
-  <p style="font-size:16px;color:#E6EDF3"><b>Always learning. Always building.</b></p>
-  <br>
-  <a href="https://github.com/your-username" style="color:#38BDF8">GitHub</a>
-  <span style="color:#3D444D"> · </span>
-  <a href="https://www.linkedin.com/in/guilherme-alves-3715a3362" style="color:#38BDF8">LinkedIn</a>
-  <span style="color:#3D444D"> · </span>
-  <a href="https://github.com/Guilherme137alves77" style="color:#38BDF8">Portfolio</a>
-  <br><br>
-  <code style="color:#8B949E;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px">$ exit --code 0</code>
-  <br><br>
-  <code style="color:#3D444D;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px">© 2026 your-username — cybersecurity engineering lab</code>
-</div>
+- **Feynman** — entendo o conceito e explico de volta com minhas palavras
+- **Revisão espaçada** — revisito o conteúdo para fixar
+- **Recursos gratuitos** — estudo com o que está ao alcance
 
-<br>
+---
 
-</div>
+## `// projetos`
+
+Nenhum projeto público relevante ainda. Estou construindo meu primeiro projeto
+de **análise binária / forense**. Em breve aqui.
+
+<!-- substitua esta seção quando tiver projetos públicos -->
+
+---
+
+## `// contato`
+
+<!-- preencha com seus links reais -->
+- **GitHub:** <https://github.com/Guilherme137alves77>
+- **LinkedIn:** <https://www.linkedin.com/in/guilherme-alves-3715a3362>
+- **E-mail:** <guilheme18gs.gui@gmail.com>
+
+---
+
+> Sempre estudando. Sempre construindo.
