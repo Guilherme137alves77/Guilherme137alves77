@@ -9,7 +9,7 @@
 -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — em trilha para engenheiro de segurança · dia 2/365" />
+  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — Information Security Student | Cybersecurity | Linux | Developer" />
 </p>
 
 <br>
