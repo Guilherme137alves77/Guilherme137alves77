@@ -1,64 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 920" role="img" aria-label="Cybersecurity journey roadmap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 920" role="img" aria-label="Roadmap 365 — fases da trilha">
 
-  <text x="152" y="45" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8B949E">~/roadmap</text>
+  <text x="152" y="45" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#8B949E">~/roadmap-365</text>
   <rect x="242" y="33" width="8" height="15" fill="#38BDF8" opacity="0.9"/>
-  <text x="590" y="45" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#6E7681">~ keep learning</text>
+  <text x="590" y="45" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#6E7681">~ dia 2 · em andamento</text>
 
   <line x1="120" y1="90" x2="120" y2="870" stroke="#1C2733" stroke-width="3"/>
 
-  <!-- step 01 -->
+  <!-- 01 — em andamento -->
   <text x="92" y="95" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">01</text>
-  <circle cx="120" cy="90" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="120" cy="90" r="2" fill="#38BDF8"/>
-  <text x="152" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">FOUNDATIONS</text>
+  <circle cx="120" cy="90" r="10" fill="none" stroke="#2DD4BF" stroke-dasharray="2 3" opacity="0.55"/>
+  <circle cx="120" cy="90" r="6" fill="#0D1117" stroke="#2DD4BF" stroke-width="2"/>
+  <circle cx="120" cy="90" r="2" fill="#2DD4BF"/>
+  <text x="152" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">FUNDAMENTOS DE BITS</text>
+  <text x="337" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#2DD4BF">~ em andamento</text>
 
-  <!-- step 02 -->
+  <!-- 02 -->
   <text x="92" y="195" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">02</text>
-  <circle cx="120" cy="190" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="120" cy="190" r="2" fill="#38BDF8"/>
-  <text x="152" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">LINUX &amp; SYSTEMS</text>
+  <circle cx="120" cy="190" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">ARQUITETURA DE COMPUTADOR</text>
 
-  <!-- step 03 -->
+  <!-- 03 -->
   <text x="92" y="295" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">03</text>
-  <circle cx="120" cy="290" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="120" cy="290" r="2" fill="#38BDF8"/>
-  <text x="152" y="296" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">NETWORKING</text>
+  <circle cx="120" cy="290" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="296" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">LINGUAGEM C</text>
 
-  <!-- step 04 -->
+  <!-- 04 -->
   <text x="92" y="395" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">04</text>
-  <circle cx="120" cy="390" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="120" cy="390" r="2" fill="#38BDF8"/>
-  <text x="152" y="396" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">SECURITY FUNDAMENTALS</text>
+  <circle cx="120" cy="390" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="396" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">ASSEMBLY X86/X64</text>
 
-  <!-- step 05 -->
+  <!-- 05 -->
   <text x="92" y="495" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">05</text>
-  <circle cx="120" cy="490" r="6" fill="#0D1117" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="120" cy="490" r="2" fill="#38BDF8"/>
-  <text x="152" y="496" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">WEB SECURITY</text>
+  <circle cx="120" cy="490" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="496" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">DEBUGGERS · MITIGATIONS</text>
 
-  <!-- step 06 — in progress -->
+  <!-- 06 -->
   <text x="92" y="595" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">06</text>
-  <circle cx="120" cy="590" r="10" fill="none" stroke="#2DD4BF" stroke-dasharray="2 3" opacity="0.55"/>
-  <circle cx="120" cy="590" r="6" fill="#0D1117" stroke="#2DD4BF" stroke-width="2"/>
-  <circle cx="120" cy="590" r="2" fill="#2DD4BF"/>
-  <text x="152" y="596" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">PENTEST / CTF</text>
-  <text x="286" y="596" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#2DD4BF">~ in progress</text>
+  <circle cx="120" cy="590" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="596" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">EXPLOIT DEVELOPMENT</text>
 
-  <!-- step 07 — in progress -->
+  <!-- 07 -->
   <text x="92" y="695" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">07</text>
-  <circle cx="120" cy="690" r="10" fill="none" stroke="#2DD4BF" stroke-dasharray="2 3" opacity="0.55"/>
-  <circle cx="120" cy="690" r="6" fill="#0D1117" stroke="#2DD4BF" stroke-width="2"/>
-  <circle cx="120" cy="690" r="2" fill="#2DD4BF"/>
-  <text x="152" y="696" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">SOC / DEFENSIVE SECURITY</text>
-  <text x="388" y="696" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#2DD4BF">~ in progress</text>
+  <circle cx="120" cy="690" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="696" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">RE · MALWARE</text>
 
-  <!-- step 08 — in progress -->
+  <!-- 08 -->
   <text x="92" y="795" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B949E">08</text>
-  <circle cx="120" cy="790" r="10" fill="none" stroke="#2DD4BF" stroke-dasharray="2 3" opacity="0.55"/>
-  <circle cx="120" cy="790" r="6" fill="#0D1117" stroke="#2DD4BF" stroke-width="2"/>
-  <circle cx="120" cy="790" r="2" fill="#2DD4BF"/>
-  <text x="152" y="796" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#E6EDF3">DEVSECOPS</text>
-  <text x="262" y="796" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#2DD4BF">~ in progress</text>
+  <circle cx="120" cy="790" r="6" fill="#0D1117" stroke="#1C2733" stroke-width="2"/>
+  <text x="152" y="796" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="1" fill="#6E7681">LINUX · REDES · WEB · BLUE TEAM</text>
 
   <polygon points="120,884 111,868 129,868" fill="#1C2733"/>
 </svg>

@@ -1,44 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" role="img" aria-label="Security lab — tools and platforms">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" role="img" aria-label="Ferramentas do módulo atual">
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
 
-    <rect x="30" y="16" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <rect x="30" y="16" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
     <circle cx="60" cy="42" r="4" fill="#38BDF8"/>
-    <text x="76" y="47" fill="#E6EDF3">Fedora Linux</text>
+    <text x="76" y="47" fill="#E6EDF3">xxd</text>
 
-    <rect x="260" y="16" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="290" cy="42" r="4" fill="#2DD4BF"/>
-    <text x="306" y="47" fill="#E6EDF3">Wireshark</text>
+    <rect x="310" y="16" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="340" cy="42" r="4" fill="#2DD4BF"/>
+    <text x="356" y="47" fill="#E6EDF3">hexdump</text>
 
-    <rect x="490" y="16" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="520" cy="42" r="4" fill="#7DD3FC"/>
-    <text x="536" y="47" fill="#E6EDF3">Burp Suite</text>
+    <rect x="590" y="16" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="620" cy="42" r="4" fill="#E6EDF3"/>
+    <text x="636" y="47" fill="#E6EDF3">gcc</text>
 
-    <rect x="720" y="16" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="750" cy="42" r="4" fill="#E6EDF3"/>
-    <text x="766" y="47" fill="#E6EDF3">Nmap</text>
+    <rect x="870" y="16" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="900" cy="42" r="4" fill="#7DD3FC"/>
+    <text x="916" y="47" fill="#E6EDF3">CyberChef</text>
 
-    <rect x="950" y="16" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="980" cy="42" r="4" fill="#F59E0B"/>
-    <text x="996" y="47" fill="#E6EDF3">Git</text>
+    <rect x="30" y="88" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="60" cy="114" r="4" fill="#F59E0B"/>
+    <text x="76" y="119" fill="#E6EDF3">Khan Academy</text>
 
-    <rect x="30" y="88" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="60" cy="114" r="4" fill="#38BDF8"/>
-    <text x="76" y="119" fill="#E6EDF3">Docker</text>
+    <rect x="310" y="88" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="340" cy="114" r="4" fill="#38BDF8"/>
+    <text x="356" y="119" fill="#E6EDF3">python</text>
 
-    <rect x="260" y="88" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="290" cy="114" r="4" fill="#2DD4BF"/>
-    <text x="306" y="119" fill="#E6EDF3">TryHackMe</text>
+    <rect x="590" y="88" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="620" cy="114" r="4" fill="#2DD4BF"/>
+    <text x="636" y="119" fill="#E6EDF3">linux</text>
 
-    <rect x="490" y="88" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="520" cy="114" r="4" fill="#E6EDF3"/>
-    <text x="536" y="119" fill="#E6EDF3">Hack The Box</text>
-
-    <rect x="720" y="88" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="750" cy="114" r="4" fill="#8B949E"/>
-    <text x="766" y="119" fill="#E6EDF3">PortSwigger</text>
-
-    <rect x="950" y="88" width="216" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
-    <circle cx="980" cy="114" r="4" fill="#F59E0B"/>
-    <text x="996" y="119" fill="#E6EDF3">MITRE ATT&amp;CK</text>
+    <rect x="870" y="88" width="250" height="52" rx="10" fill="#111820" stroke="#1C2733"/>
+    <circle cx="900" cy="114" r="4" fill="#E6EDF3"/>
+    <text x="916" y="119" fill="#E6EDF3">git</text>
   </g>
 </svg>
