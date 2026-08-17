@@ -11,14 +11,9 @@
 
 # Guilherme Alves
 
-<<<<<<< HEAD
-> Estudante iniciante de cibersegurança — sem experiência profissional e sem
-> certificações ainda.
-=======
 > cybersecurity & automation · estudando os fundamentos de baixo nível (C, memória, binários)
 > enquanto construo ferramentas reais em Python.
 
->>>>>>> 293fe77 (Feat: update)
 ---
 
 ## `// o que eu faço`
@@ -61,7 +56,6 @@ e análise de portas perigosas. Código 100% escrito por mim.
 |---|---|---|
 | Python | automação, OOP, APIs, bibliotecas de segurança | **intermediário** |
 | C | ponteiros, memória, buffers, bitwise | **em andamento** |
-| Matemática | entropia, álgebra linear, probabilidade, cálculo aplicado | **em andamento** |
 | Fundamentos | bits, inteiros, endianness, ASCII/UTF-8, IEEE 754 | concluído |
 | Baixo nível | arquitetura de computador, assembly, debuggers | planejado |
 | Cybersecurity | redes, web security, blue team/SIEM, DFIR, CTF | planejado |
