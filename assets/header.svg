@@ -87,7 +87,7 @@
   <rect x="540" y="182" width="120" height="3" rx="1.5" fill="url(#titleGrad)" opacity="0.9"/>
 
   <!-- subtitle -->
-  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="2" fill="#8B949E">Cybersecurity  ·  Python  ·  C  ·  Linux</text>
+  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="2" fill="#8B949E">Information Security Student  ·  Cybersecurity  ·  Python  ·  C</text>
 
   <!-- chips -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" text-anchor="middle" letter-spacing="1">
