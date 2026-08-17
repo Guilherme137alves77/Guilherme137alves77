@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Guilherme Alves — Information Security Student">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Guilherme Alves — Cybersecurity | Python | C | Linux">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#080B10"/>
@@ -29,6 +29,26 @@
 
   <rect x="0" y="0" width="1200" height="2" fill="url(#lineGrad)"/>
   <rect x="0" y="338" width="1200" height="2" fill="url(#lineGrad)" opacity="0.4"/>
+
+  <!-- math formulas — subtle background decoration -->
+  <g font-family="'Courier New',ui-monospace,monospace" fill="#38BDF8" opacity="0.07">
+    <!-- entropy -->
+    <text x="80" y="60" font-size="15">H = -Σ p·log₂(p)</text>
+    <!-- sigmoid -->
+    <text x="850" y="55" font-size="14">σ(z) = 1 / (1 + e⁻ᶻ)</text>
+    <!-- bitwise -->
+    <text x="90" y="300" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
+    <!-- binary -->
+    <text x="800" y="310" font-size="13">01001000 01100101</text>
+    <!-- cross-entropy -->
+    <text x="100" y="170" font-size="12">L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]</text>
+    <!-- weight sum -->
+    <text x="870" y="180" font-size="13">z = w·x + b</text>
+    <!-- matrix -->
+    <text x="70" y="230" font-size="12">X ∈ ℝ^(m×n)</text>
+    <!-- hex -->
+    <text x="920" y="250" font-size="12">0xDEADBEEF</text>
+  </g>
 
   <!-- network nodes -->
   <g opacity="0.7">
@@ -67,14 +87,14 @@
   <rect x="540" y="182" width="120" height="3" rx="1.5" fill="url(#titleGrad)" opacity="0.9"/>
 
   <!-- subtitle -->
-  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="2" fill="#8B949E">Information Security Student  ·  Cybersecurity  ·  Linux  ·  Developer</text>
+  <text x="600" y="222" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="2" fill="#8B949E">Cybersecurity  ·  Python  ·  C  ·  Linux</text>
 
   <!-- chips -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" text-anchor="middle" letter-spacing="1">
     <text x="450" y="262" fill="#38BDF8">[ cybersecurity ]</text>
     <text x="530" y="262" fill="#8B949E" letter-spacing="0">×</text>
-    <text x="610" y="262" fill="#2DD4BF">[ linux ]</text>
+    <text x="610" y="262" fill="#2DD4BF">[ python ]</text>
     <text x="690" y="262" fill="#8B949E" letter-spacing="0">×</text>
-    <text x="770" y="262" fill="#7DD3FC">[ development ]</text>
+    <text x="770" y="262" fill="#7DD3FC">[ C ]</text>
   </g>
 </svg>
