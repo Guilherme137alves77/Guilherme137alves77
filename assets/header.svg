@@ -21,8 +21,8 @@
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="tClip">
-      <rect x="290" y="100" width="0" height="80">
-        <animate attributeName="width" values="0;620" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
+      <rect x="100" y="100" width="0" height="80">
+        <animate attributeName="width" values="0;1000" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
       </rect>
     </clipPath>
   </defs>
@@ -62,17 +62,15 @@
 
   <!-- title -->
   <g clip-path="url(#tClip)">
-    <text x="600" y="155" text-anchor="middle" font-family="sans-serif" font-size="56" font-weight="700" letter-spacing="7" fill="url(#titleGrad)">GUILHERME ALVES</text>
+    <text x="600" y="155" text-anchor="middle" font-family="sans-serif" font-size="50" font-weight="700" letter-spacing="4" fill="url(#titleGrad)">GUILHERME ALVES</text>
   </g>
   <rect x="535" y="180" width="130" height="2.5" rx="1.25" fill="url(#titleGrad)"/>
 
   <!-- direct text -->
   <text x="600" y="218" text-anchor="middle" font-family="sans-serif" font-size="20" letter-spacing="3" fill="#E6EDF3">Cybersecurity Student · Developer</text>
 
-  <g font-family="monospace" font-size="16" text-anchor="middle">
-    <text x="600" y="252" fill="#8B98A8">gui@security-lab</text>
-    <text x="713" y="252" fill="#3B82F6">linux user</text>
-  </g>
+  <!-- prompt -->
+  <text x="60" y="252" text-anchor="start" font-family="monospace" font-size="16" fill="#8B98A8">gui@security-lab</text>
 
   <!-- typewriter line -->
   <g font-family="monospace" font-size="14" text-anchor="middle">
