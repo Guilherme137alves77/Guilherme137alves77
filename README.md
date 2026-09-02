@@ -1,19 +1,10 @@
 <!--
   GitHub Profile · Guilherme Alves
   Dark Technical Minimalism
-  Fileira de construção: fundamento → experimento → código → documento.
 -->
 
 <p align="center">
-  <pre>
-  ██████╗ ██╗   ██╗██╗██╗  ██╗███████╗██████╗ ███╗   ███╗███████╗
- ██╔════╝ ██║   ██║██║██║  ██║██╔════╝██╔══██╗████╗ ████║██╔════╝
- ██║  ███╗██║   ██║██║███████║█████╗  ██████╔╝██╔████╔██║█████╗
- ██║   ██║██║   ██║██║██╔══██║██╔══╝  ██╔══██╗██║╚██╔╝██║██╔══╝
- ╚██████╔╝╚██████╔╝██║██║  ██║███████╗██║  ██║██║ ╚═╝ ██║███████╗
-  ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
-  </pre>
-  <sub>Cybersecurity Student · Developer<br/>Building. Learning. Documenting.</sub>
+  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — Cybersecurity Student · Developer" />
 </p>
 
 <p align="center">
