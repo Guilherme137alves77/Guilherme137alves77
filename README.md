@@ -9,26 +9,10 @@
 
 ---
 
-## `// foco atual`
+## `// stack`
 
 <p align="center">
-  <img src="assets/langs/focus.svg" width="90%" alt="Foco atual" />
-</p>
-
----
-
-## `// linguagens`
-
-<p align="center">
-  <img src="assets/langs/skills.svg" width="90%" alt="Linguagens e níveis" />
-</p>
-
----
-
-## `// ferramentas & ambiente`
-
-<p align="center">
-  <img src="assets/langs/tools.svg" width="90%" alt="Ferramentas e ambiente" />
+  <img src="assets/langs/stack.svg" width="90%" alt="Stack técnica" />
 </p>
 
 ---
