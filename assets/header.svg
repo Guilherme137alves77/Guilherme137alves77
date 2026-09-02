@@ -24,6 +24,10 @@
       <stop offset="0" stop-color="#3B82F6"/>
       <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
+    <linearGradient id="sysCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D131C"/>
+      <stop offset="1" stop-color="#111923"/>
+    </linearGradient>
     <filter id="glowFilter">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -31,28 +35,6 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- typewriter terminal line -->
-    <clipPath id="termClip">
-      <rect x="40" y="282" width="0" height="24">
-        <animate attributeName="width" calcMode="discrete"
-          values="0;8;16;24;32;40;48;56;64;72;80;88;96;104;112;120;128;136;144;152;160;168;176;184;192;200;208;216;224;232;240;248;256;264;272;280;288;296;301"
-          keyTimes="0;0.03;0.06;0.09;0.12;0.15;0.18;0.21;0.24;0.27;0.30;0.33;0.36;0.39;0.42;0.45;0.48;0.51;0.54;0.57;0.60;0.63;0.66;0.69;0.72;0.75;0.78;0.81;0.84;0.87;0.90;0.93;0.95;0.97;0.99;1"
-          dur="2.2s" fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <!-- title wipe -->
-    <clipPath id="titleClip">
-      <rect x="280" y="95" width="0" height="80">
-        <animate attributeName="width" values="0;650" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
-      </rect>
-    </clipPath>
-    <clipPath id="subClip">
-      <rect x="360" y="196" width="0" height="26">
-        <animate attributeName="width" values="0;480" dur="1s" fill="freeze" begin="1.9s"/>
-      </rect>
-    </clipPath>
   </defs>
 
   <!-- background -->
@@ -75,120 +57,150 @@
   <rect x="0" y="338" width="1200" height="2" fill="url(#lineGrad)" opacity="0.4"/>
 
   <!-- math formulas background -->
-  <g font-family="monospace" fill="#60A5FA" opacity="0.38">
+  <g font-family="monospace" fill="#60A5FA" opacity="0.35">
     <text x="80" y="60" font-size="15">H = -Σ p·log₂(p)</text>
-    <text x="680" y="55" font-size="14">σ(z) = 1 / (1 + e⁻ᶻ)</text>
-    <text x="80" y="305" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
-    <text x="680" y="310" font-size="13">01001000 01100101</text>
-    <text x="520" y="170" font-size="12">L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]</text>
+    <text x="680" y="55" font-size="14">z = w·x + b</text>
+    <text x="700" y="310" font-size="13">01001000 01100101</text>
+    <text x="520" y="170" font-size="12">0xDEADBEEF</text>
   </g>
 
   <!-- hex faint -->
-  <g font-family="monospace" font-size="12" fill="#8B98A8" opacity="0.3">
+  <g font-family="monospace" font-size="12" fill="#8B98A8" opacity="0.28">
     <text x="150" y="70">0x7F 0x45 0x4C 0x46</text>
     <text x="150" y="88">eth0: 10.0.2.15</text>
   </g>
 
-  <!-- title -->
-  <g clip-path="url(#titleClip)">
-    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="56" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
-  </g>
-  <rect x="540" y="172" width="120" height="2.5" rx="1.25" fill="url(#titleGrad)" opacity="0">
-    <animate attributeName="opacity" values="0;0.85" dur="0.4s" fill="freeze" begin="1.9s"/>
-  </rect>
-
-  <!-- subtitle -->
-  <g clip-path="url(#subClip)">
-    <text x="600" y="212" text-anchor="middle" font-family="sans-serif" font-size="18" letter-spacing="2" fill="#8B98A8">Cybersecurity Student  ·  Developer  ·  Linux</text>
-  </g>
-
-  <!-- chips -->
-  <g font-family="monospace" font-size="14" text-anchor="middle" letter-spacing="1">
-    <text x="430" y="252" fill="#3B82F6" opacity="0">
-      [ cybersecurity ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.2s"/>
-    </text>
-    <text x="530" y="252" fill="#8B98A8" opacity="0">
-      ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="3.5s"/>
-    </text>
-    <text x="610" y="252" fill="#22D3EE" opacity="0">
-      [ python ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.7s"/>
-    </text>
-    <text x="690" y="252" fill="#8B98A8" opacity="0">
-      ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="4s"/>
-    </text>
-    <text x="770" y="252" fill="#60A5FA" opacity="0">
-      [ C ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="4.2s"/>
-    </text>
-  </g>
-
-  <!-- terminal typewriter -->
-  <g font-family="monospace" font-size="14">
-    <g clip-path="url(#termClip)">
-      <text x="40" y="300" fill="#8B98A8">$ </text>
-      <text x="58" y="300" fill="#E6EDF3">./init.sh</text>
-      <text x="150" y="300" fill="#8B98A8">--target</text>
-      <text x="232" y="300" fill="#3B82F6">cybersecurity</text>
-    </g>
-  </g>
-  <rect x="352" y="287" width="8" height="16" fill="#3B82F6" opacity="0">
-    <animate attributeName="opacity" values="0;0.9;0;0.9;0;0.9" dur="0.8s" begin="0.6s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- whoami mini card (right side) -->
+  <!-- ======= RIGHT: terminal typewriter ======= -->
   <g>
-    <rect x="915" y="52" width="255" height="270" rx="10" fill="#0D131C" stroke="#202B38"/>
-    <!-- mini title bar -->
-    <rect x="915" y="52" width="255" height="36" rx="10" fill="#111923"/>
-    <rect x="915" y="72" width="255" height="16" fill="#111923"/>
-    <circle cx="932" cy="70" r="5" fill="#8B98A8" opacity="0.35"/>
-    <circle cx="946" cy="70" r="5" fill="#8B98A8" opacity="0.25"/>
-    <circle cx="960" cy="70" r="5" fill="#8B98A8" opacity="0.18"/>
-    <text x="1042" y="74" text-anchor="middle" font-family="monospace" font-size="12" fill="#8B98A8">whoami</text>
+    <rect x="850" y="60" width="315" height="120" rx="10" fill="#0D131C" stroke="#202B38"/>
+    <rect x="850" y="60" width="315" height="34" rx="10" fill="#111923"/>
+    <rect x="850" y="80" width="315" height="14" fill="#111923"/>
+    <circle cx="868" cy="77" r="5" fill="#8B98A8" opacity="0.35"/>
+    <circle cx="882" cy="77" r="5" fill="#8B98A8" opacity="0.25"/>
+    <circle cx="896" cy="77" r="5" fill="#8B98A8" opacity="0.18"/>
+    <text x="1007" y="81" text-anchor="middle" font-family="monospace" font-size="12" fill="#8B98A8">init</text>
 
-    <rect x="930" y="100" width="225" height="1" fill="#202B38"/>
-
-    <!-- lines -->
-    <g font-family="monospace" font-size="13">
-      <text x="930" y="126" fill="#22D3EE">$ whoami</text>
-      <text x="930" y="154" font-family="sans-serif" font-size="17" font-weight="700" fill="url(#wmUser)">guilherme@security-lab</text>
-      <text x="930" y="184" fill="#E6EDF3">Cybersecurity student</text>
-      <text x="930" y="210" fill="#E6EDF3">Developer</text>
-      <text x="930" y="236" fill="#E6EDF3">Linux user</text>
-      <text x="930" y="262" fill="#3B82F6">Always learning.</text>
-      <rect x="1050" y="250" width="7" height="14" rx="1" fill="#22D3EE" opacity="0">
-        <animate attributeName="opacity" values="0;1;0;1;0;1" dur="1.6s" repeatCount="indefinite"/>
+    <clipPath id="termClip">
+      <rect x="868" y="112" width="0" height="20">
+        <animate attributeName="width" calcMode="discrete"
+          values="0;10;20;30;40;50;60;70;80;90;100;110;120;130;140;150;160;170;180;190;200;210;220;230;240;250;260;270"
+          keyTimes="0;0.04;0.08;0.12;0.16;0.20;0.24;0.28;0.32;0.36;0.40;0.44;0.48;0.52;0.56;0.60;0.64;0.68;0.72;0.76;0.80;0.84;0.88;0.92;0.96;1"
+          dur="2s" fill="freeze"/>
       </rect>
+    </clipPath>
+
+    <g clip-path="url(#termClip)" font-family="monospace" font-size="13">
+      <text x="868" y="128" fill="#8B98A8">$ </text>
+      <text x="882" y="128" fill="#E6EDF3">./init.sh</text>
+      <text x="948" y="128" fill="#8B98A8">--target</text>
+      <text x="1005" y="128" fill="#3B82F6">cybersecurity</text>
+    </g>
+    <rect x="1010" y="116" width="7" height="16" fill="#3B82F6" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0;0.9;0;0.9" dur="0.8s" begin="1.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="868" y="150" width="279" height="1" fill="#202B38"/>
+    <text x="868" y="168" font-family="monospace" font-size="11" fill="#8B98A8" opacity="0.8">building security knowledge</text>
+  </g>
+
+  <!-- ======= LEFT: system whoami panel (neofetch style) ======= -->
+  <g>
+    <rect x="40" y="52" width="330" height="272" rx="10" fill="#0D131C" stroke="#202B38"/>
+
+    <!-- header row -->
+    <rect x="58" y="70" width="294" height="40" rx="8" fill="url(#sysCard)" stroke="#202B38"/>
+    <circle cx="76" cy="90" r="13" fill="#111923" stroke="#3B82F6" stroke-opacity="0.5"/>
+    <text x="76" y="95" text-anchor="middle" font-family="monospace" font-size="11" fill="#22D3EE">gui</text>
+    <text x="100" y="89" font-family="sans-serif" font-size="15" font-weight="700" fill="#E6EDF3">guilherme@security-lab</text>
+    <text x="100" y="105" font-family="monospace" font-size="11" fill="#8B98A8">cybersecurity student · developer</text>
+
+    <!-- divider -->
+    <rect x="58" y="128" width="294" height="1" fill="#202B38"/>
+
+    <!-- system rows -->
+    <g font-family="monospace" font-size="13">
+      <g>
+        <text x="58" y="154" fill="#8B98A8">role</text>
+        <text x="140" y="154" fill="#E6EDF3">security student</text>
+      </g>
+      <g>
+        <text x="58" y="180" fill="#8B98A8">os</text>
+        <text x="140" y="180" fill="#E6EDF3">linux · fedora</text>
+      </g>
+      <g>
+        <text x="58" y="206" fill="#8B98A8">focus</text>
+        <text x="140" y="206" fill="#E6EDF3">low level · python</text>
+      </g>
+      <g>
+        <text x="58" y="232" fill="#8B98A8">shell</text>
+        <text x="140" y="232" fill="#E6EDF3">bash</text>
+      </g>
+      <g>
+        <text x="58" y="258" fill="#8B98A8">status</text>
+        <circle cx="144" cy="254" r="4" fill="#22C55E" opacity="0.9">
+          <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="156" y="258" fill="#22C55E">learning</text>
+      </g>
     </g>
 
     <!-- footer -->
-    <rect x="930" y="284" width="225" height="1" fill="#202B38"/>
-    <text x="930" y="304" font-family="monospace" font-size="10" fill="#8B98A8">M0 → M25</text>
-    <text x="1155" y="304" text-anchor="end" font-family="monospace" font-size="10" fill="#3B82F6">always learning</text>
+    <rect x="58" y="280" width="294" height="1" fill="#202B38"/>
+    <text x="58" y="300" font-family="monospace" font-size="11" fill="#8B98A8">M0 → M25</text>
+    <text x="352" y="300" text-anchor="end" font-family="monospace" font-size="11" fill="#3B82F6">always learning</text>
   </g>
 
-  <!-- network nodes (left of whoami card) -->
-  <g opacity="0.65">
-    <line x1="760" y1="70" x2="840" y2="100" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="840" y1="100" x2="890" y2="70" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="840" y1="100" x2="890" y2="150" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="760" y1="70" x2="890" y2="150" stroke="#3B82F6" stroke-width="1" opacity="0.3">
+  <!-- ======= CENTER: title ======= -->
+  <clipPath id="titleClip">
+    <rect x="430" y="95" width="0" height="80">
+      <animate attributeName="width" values="0;450" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#titleClip)">
+    <text x="640" y="150" text-anchor="middle" font-family="sans-serif" font-size="54" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
+  </g>
+  <rect x="580" y="170" width="120" height="2.5" rx="1.25" fill="url(#titleGrad)" opacity="0">
+    <animate attributeName="opacity" values="0;0.85" dur="0.4s" fill="freeze" begin="1.9s"/>
+  </rect>
+
+  <clipPath id="subClip">
+    <rect x="490" y="196" width="0" height="26">
+      <animate attributeName="width" values="0;300" dur="1s" fill="freeze" begin="1.9s"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#subClip)">
+    <text x="640" y="210" text-anchor="middle" font-family="sans-serif" font-size="17" letter-spacing="2" fill="#8B98A8">Cybersecurity Student · Developer</text>
+  </g>
+
+  <!-- network nodes between center and right -->
+  <g opacity="0.6">
+    <line x1="770" y1="250" x2="820" y2="220" stroke="#202B38" stroke-width="1.5"/>
+    <line x1="820" y1="220" x2="790" y2="180" stroke="#202B38" stroke-width="1.5"/>
+    <line x1="770" y1="250" x2="790" y2="180" stroke="#3B82F6" stroke-width="1" opacity="0.3">
       <animate attributeName="opacity" values="0.3;0.55;0.3" dur="3s" repeatCount="indefinite"/>
     </line>
-    <circle cx="760" cy="70" r="3" fill="#202B38"/>
-    <circle cx="840" cy="100" r="3.5" fill="#3B82F6" opacity="0.7" filter="url(#glowFilter)">
+    <circle cx="770" cy="250" r="3" fill="#202B38"/>
+    <circle cx="820" cy="220" r="3.5" fill="#3B82F6" opacity="0.7" filter="url(#glowFilter)">
       <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="890" cy="70" r="3" fill="#202B38"/>
-    <circle cx="890" cy="150" r="3" fill="#22D3EE" opacity="0.7" filter="url(#glowFilter)">
+    <circle cx="790" cy="180" r="3" fill="#22D3EE" opacity="0.7" filter="url(#glowFilter)">
       <animate attributeName="r" values="3;4.5;3" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <circle r="2" fill="#3B82F6" filter="url(#glowFilter)">
-      <animateMotion dur="3s" repeatCount="indefinite" path="M760,70 L840,100 L890,150"/>
-    </circle>
+  </g>
+
+  <!-- chips (bottom center) -->
+  <g font-family="monospace" font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="560" y="260" fill="#3B82F6" opacity="0">
+      [ cybersecurity ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.2s"/>
+    </text>
+    <text x="650" y="260" fill="#22D3EE" opacity="0">
+      [ python ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.7s"/>
+    </text>
+    <text x="720" y="260" fill="#60A5FA" opacity="0">
+      [ C ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="4.2s"/>
+    </text>
   </g>
 </svg>
