@@ -19,22 +19,18 @@
 
 ## `// projetos`
 
-Projetos com código real. **Status honesto**: o que está público, o que é
-local e o que está em construção.
+Projetos com código real. **Status honesto**: o que está público, o que é local e o que está em construção.
 
 ### <img src="assets/icons/aegis.svg" width="20" height="20" alt="AEGIS"/> AEGIS — Security Automation Toolkit
-Plataforma modular de **SOC / Blue Team** em Python: comandos de rede, sistema,
-logs, web, integridade e threat intel. CLI com Typer, UI com Rich, coleta via psutil.
+Plataforma modular de **SOC / Blue Team** em Python: comandos de rede, sistema, logs, web, integridade e threat intel. CLI com Typer, UI com Rich, coleta via psutil.
 `Python` `Typer` `Rich` `psutil` — `● ativo (local, em breve público)`
 
 ### <img src="assets/icons/sentinel.svg" width="20" height="20" alt="sentinel-firewall"/> sentinel-firewall
-Mini **Firewall & Intrusion Detection System**: análise de conexões,
-blacklist de IPs e logging de alertas em JSON. 100% autoral.
+Mini **Firewall & Intrusion Detection System**: análise de conexões, blacklist de IPs e logging de alertas em JSON. 100% autoral.
 `Python` `OOP` `JSON` — `● público`
 
 ### <img src="assets/icons/authgym.svg" width="20" height="20" alt="AuthGym"/> AuthGym
-Sistema de **controle de acesso para academias** com reconhecimento facial
-(OpenCV + MediaPipe).
+Sistema de **controle de acesso para academias** com reconhecimento facial (OpenCV + MediaPipe).
 `Python` `OpenCV` `MediaPipe` — `● público`
 
 ### <img src="assets/icons/lab-cyber.svg" width="20" height="20" alt="Lab-Cyber"/> Lab-Cyber
@@ -42,18 +38,15 @@ Plataforma educacional de cibersegurança com **100 desafios práticos**.
 `JavaScript` — `● público`
 
 ### <img src="assets/icons/docker-lab.svg" width="20" height="20" alt="Docker Lab"/> Laboratório de Pentest (Docker)
-Ambiente **isolado** (rede interna) com Kali + DVWA + Juice Shop + Metasploitable
-para estudo de pentest e Burp Suite.
-`Shell` `Docker` `nmap` `sqlmap` — `○ local (não publicado)`
+Ambiente **isolado** (rede interna) com Kali + DVWA + Juice Shop + Metasploitable para estudo de pentest e Burp Suite.
+`Shell` `Docker` `nmap` `sqlmap` — `○ draft (não publicado)`
 
 ### <img src="assets/icons/ecommerce.svg" width="20" height="20" alt="Secure E-commerce"/> Secure E-commerce Lab
-Laboratório de **segurança web / backend** em Express: sessões, CSRF,
-validação, rate limiting e modo de treino com vulnerabilidades (IDOR, XSS).
+Laboratório de **segurança web / backend** em Express: sessões, CSRF, validação, rate limiting e modo de treino com vulnerabilidades (IDOR, XSS).
 `Node.js` `Express` `SQLite` — `● concluído`
 
 ### <img src="assets/icons/others.svg" width="20" height="20" alt="Outros"/> Outros
-`StreetKick` (Lua/LÖVE) · `Studying-C` (fundamentos de C) · `Hyprland-cyber` (dotfiles Linux) ·
-`Barber-site` (HTML/CSS/JS) · `Avaliacao` (JS) · `Cyber Portfolio` (site)
+`StreetKick` (Lua/LÖVE) · `Studying-C` (fundamentos de C) · `Hyprland-cyber` (dotfiles Linux) · `Barber-site` (HTML/CSS/JS) · `Avaliacao` (JS) · `Cyber Portfolio` (site)
 
 ---
 
