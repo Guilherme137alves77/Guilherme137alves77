@@ -9,14 +9,6 @@
 
 ---
 
-## `// whoami`
-
-<p align="center">
-  <img src="assets/langs/whoami.svg" width="75%" alt="whoami — guilherme@security-lab" />
-</p>
-
----
-
 ## `// stack`
 
 <p align="center">

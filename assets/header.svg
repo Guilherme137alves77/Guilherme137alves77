@@ -20,6 +20,10 @@
       <stop offset="0.5" stop-color="#3B82F6" stop-opacity="0.5"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="wmUser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
     <filter id="glowFilter">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -28,7 +32,7 @@
       </feMerge>
     </filter>
 
-    <!-- typewriter: terminal line (char by char) -->
+    <!-- typewriter terminal line -->
     <clipPath id="termClip">
       <rect x="40" y="282" width="0" height="24">
         <animate attributeName="width" calcMode="discrete"
@@ -38,13 +42,12 @@
       </rect>
     </clipPath>
 
-    <!-- title reveal (slow wipe, professional) -->
+    <!-- title wipe -->
     <clipPath id="titleClip">
       <rect x="280" y="95" width="0" height="80">
         <animate attributeName="width" values="0;650" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
       </rect>
     </clipPath>
-
     <clipPath id="subClip">
       <rect x="360" y="196" width="0" height="26">
         <animate attributeName="width" values="0;480" dur="1s" fill="freeze" begin="1.9s"/>
@@ -55,94 +58,76 @@
   <!-- background -->
   <rect width="1200" height="340" fill="url(#bgGrad)"/>
 
-  <!-- dots pattern -->
   <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
     <circle cx="1.5" cy="1.5" r="1.5" fill="#1C2733"/>
   </pattern>
   <rect width="1200" height="340" fill="url(#dots)"/>
-
-  <!-- glow -->
   <rect width="1200" height="340" fill="url(#glow)"/>
 
-  <!-- animated scanline -->
+  <!-- scanline -->
   <g opacity="0.045">
     <rect width="1200" height="2" fill="#3B82F6">
       <animateTransform attributeName="transform" type="translate" values="0,0;0,340;0,0" dur="8s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <!-- top/bottom lines -->
   <rect x="0" y="0" width="1200" height="2" fill="url(#lineGrad)"/>
   <rect x="0" y="338" width="1200" height="2" fill="url(#lineGrad)" opacity="0.4"/>
 
-  <!-- math formulas — visible background -->
-  <g font-family="'Courier New',ui-monospace,monospace" fill="#60A5FA" opacity="0.4">
+  <!-- math formulas background -->
+  <g font-family="monospace" fill="#60A5FA" opacity="0.38">
     <text x="80" y="60" font-size="15">H = -Σ p·log₂(p)</text>
-    <text x="850" y="55" font-size="14">σ(z) = 1 / (1 + e⁻ᶻ)</text>
-    <text x="90" y="305" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
-    <text x="800" y="310" font-size="13">01001000 01100101</text>
-    <text x="100" y="170" font-size="12">L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]</text>
-    <text x="870" y="180" font-size="13">z = w·x + b</text>
-    <text x="70" y="230" font-size="12">X ∈ ℝ^(m×n)</text>
-    <text x="920" y="250" font-size="12">0xDEADBEEF</text>
+    <text x="680" y="55" font-size="14">σ(z) = 1 / (1 + e⁻ᶻ)</text>
+    <text x="80" y="305" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
+    <text x="680" y="310" font-size="13">01001000 01100101</text>
+    <text x="520" y="170" font-size="12">L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]</text>
   </g>
 
-  <!-- prominent hex line (cybersecurity-ish) -->
-  <g font-family="ui-monospace,SFMono-Regular,monospace" font-size="13" fill="#3B82F6" opacity="0.5">
-    <text x="330" y="285">0xFE 0xED 0xFA 0xCE</text>
-    <text x="520" y="285" opacity="0.35">memcpy(&amp;buf, data, sizeof)</text>
-  </g>
-
-  <!-- network nodes -->
-  <g opacity="0.7">
-    <line x1="940" y1="60" x2="1040" y2="120" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="1040" y1="120" x2="1120" y2="80" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="1040" y1="120" x2="1100" y2="200" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="1100" y1="200" x2="1010" y2="210" stroke="#202B38" stroke-width="1.5"/>
-    <line x1="940" y1="60" x2="1010" y2="210" stroke="#3B82F6" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.55;0.3" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <circle cx="940" cy="60" r="3" fill="#202B38"/>
-    <circle cx="1040" cy="120" r="3.5" fill="#3B82F6" opacity="0.7" filter="url(#glowFilter)">
-      <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1120" cy="80" r="3" fill="#202B38"/>
-    <circle cx="1100" cy="200" r="3" fill="#202B38"/>
-    <circle cx="1010" cy="210" r="3" fill="#22D3EE" opacity="0.7" filter="url(#glowFilter)">
-      <animate attributeName="r" values="3;4.5;3" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="2" fill="#3B82F6" filter="url(#glowFilter)">
-      <animateMotion dur="3s" repeatCount="indefinite" path="M940,60 L1040,120 L1100,200 L1010,210"/>
-    </circle>
-    <circle r="1.5" fill="#22D3EE" filter="url(#glowFilter)">
-      <animateMotion dur="4s" repeatCount="indefinite" path="M1010,210 L940,60"/>
-    </circle>
-  </g>
-
-  <!-- hex / network faint -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B98A8" opacity="0.3">
+  <!-- hex faint -->
+  <g font-family="monospace" font-size="12" fill="#8B98A8" opacity="0.3">
     <text x="150" y="70">0x7F 0x45 0x4C 0x46</text>
     <text x="150" y="88">eth0: 10.0.2.15</text>
-    <text x="950" y="250">0x080C12 · 0x3B82F6</text>
-    <text x="950" y="268">tcp/443 → ESTABLISHED</text>
   </g>
 
-  <!-- title (professional wipe reveal) -->
+  <!-- title -->
   <g clip-path="url(#titleClip)">
-    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
+    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="56" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
   </g>
-
   <rect x="540" y="172" width="120" height="2.5" rx="1.25" fill="url(#titleGrad)" opacity="0">
     <animate attributeName="opacity" values="0;0.85" dur="0.4s" fill="freeze" begin="1.9s"/>
   </rect>
 
   <!-- subtitle -->
   <g clip-path="url(#subClip)">
-    <text x="600" y="212" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" letter-spacing="2" fill="#8B98A8">Cybersecurity Student  ·  Developer  ·  Linux</text>
+    <text x="600" y="212" text-anchor="middle" font-family="sans-serif" font-size="18" letter-spacing="2" fill="#8B98A8">Cybersecurity Student  ·  Developer  ·  Linux</text>
   </g>
 
-  <!-- terminal: real typewriter -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+  <!-- chips -->
+  <g font-family="monospace" font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="430" y="252" fill="#3B82F6" opacity="0">
+      [ cybersecurity ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.2s"/>
+    </text>
+    <text x="530" y="252" fill="#8B98A8" opacity="0">
+      ×
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="3.5s"/>
+    </text>
+    <text x="610" y="252" fill="#22D3EE" opacity="0">
+      [ python ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.7s"/>
+    </text>
+    <text x="690" y="252" fill="#8B98A8" opacity="0">
+      ×
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="4s"/>
+    </text>
+    <text x="770" y="252" fill="#60A5FA" opacity="0">
+      [ C ]
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="4.2s"/>
+    </text>
+  </g>
+
+  <!-- terminal typewriter -->
+  <g font-family="monospace" font-size="14">
     <g clip-path="url(#termClip)">
       <text x="40" y="300" fill="#8B98A8">$ </text>
       <text x="58" y="300" fill="#E6EDF3">./init.sh</text>
@@ -150,33 +135,60 @@
       <text x="232" y="300" fill="#3B82F6">cybersecurity</text>
     </g>
   </g>
-
-  <!-- cursor: blinks during/after typing -->
   <rect x="352" y="287" width="8" height="16" fill="#3B82F6" opacity="0">
     <animate attributeName="opacity" values="0;0.9;0;0.9;0;0.9" dur="0.8s" begin="0.6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- chips (fade in after everything) -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" text-anchor="middle" letter-spacing="1">
-    <text x="430" y="258" fill="#3B82F6" opacity="0">
-      [ cybersecurity ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.2s"/>
-    </text>
-    <text x="530" y="258" fill="#8B98A8" letter-spacing="0" opacity="0">
-      ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="3.5s"/>
-    </text>
-    <text x="610" y="258" fill="#22D3EE" opacity="0">
-      [ python ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.7s"/>
-    </text>
-    <text x="690" y="258" fill="#8B98A8" letter-spacing="0" opacity="0">
-      ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="4s"/>
-    </text>
-    <text x="770" y="258" fill="#60A5FA" opacity="0">
-      [ C ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="4.2s"/>
-    </text>
+  <!-- whoami mini card (right side) -->
+  <g>
+    <rect x="915" y="52" width="255" height="270" rx="10" fill="#0D131C" stroke="#202B38"/>
+    <!-- mini title bar -->
+    <rect x="915" y="52" width="255" height="36" rx="10" fill="#111923"/>
+    <rect x="915" y="72" width="255" height="16" fill="#111923"/>
+    <circle cx="932" cy="70" r="5" fill="#8B98A8" opacity="0.35"/>
+    <circle cx="946" cy="70" r="5" fill="#8B98A8" opacity="0.25"/>
+    <circle cx="960" cy="70" r="5" fill="#8B98A8" opacity="0.18"/>
+    <text x="1042" y="74" text-anchor="middle" font-family="monospace" font-size="12" fill="#8B98A8">whoami</text>
+
+    <rect x="930" y="100" width="225" height="1" fill="#202B38"/>
+
+    <!-- lines -->
+    <g font-family="monospace" font-size="13">
+      <text x="930" y="126" fill="#22D3EE">$ whoami</text>
+      <text x="930" y="154" font-family="sans-serif" font-size="17" font-weight="700" fill="url(#wmUser)">guilherme@security-lab</text>
+      <text x="930" y="184" fill="#E6EDF3">Cybersecurity student</text>
+      <text x="930" y="210" fill="#E6EDF3">Developer</text>
+      <text x="930" y="236" fill="#E6EDF3">Linux user</text>
+      <text x="930" y="262" fill="#3B82F6">Always learning.</text>
+      <rect x="1050" y="250" width="7" height="14" rx="1" fill="#22D3EE" opacity="0">
+        <animate attributeName="opacity" values="0;1;0;1;0;1" dur="1.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- footer -->
+    <rect x="930" y="284" width="225" height="1" fill="#202B38"/>
+    <text x="930" y="304" font-family="monospace" font-size="10" fill="#8B98A8">M0 → M25</text>
+    <text x="1155" y="304" text-anchor="end" font-family="monospace" font-size="10" fill="#3B82F6">always learning</text>
+  </g>
+
+  <!-- network nodes (left of whoami card) -->
+  <g opacity="0.65">
+    <line x1="760" y1="70" x2="840" y2="100" stroke="#202B38" stroke-width="1.5"/>
+    <line x1="840" y1="100" x2="890" y2="70" stroke="#202B38" stroke-width="1.5"/>
+    <line x1="840" y1="100" x2="890" y2="150" stroke="#202B38" stroke-width="1.5"/>
+    <line x1="760" y1="70" x2="890" y2="150" stroke="#3B82F6" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.55;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="760" cy="70" r="3" fill="#202B38"/>
+    <circle cx="840" cy="100" r="3.5" fill="#3B82F6" opacity="0.7" filter="url(#glowFilter)">
+      <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="890" cy="70" r="3" fill="#202B38"/>
+    <circle cx="890" cy="150" r="3" fill="#22D3EE" opacity="0.7" filter="url(#glowFilter)">
+      <animate attributeName="r" values="3;4.5;3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#3B82F6" filter="url(#glowFilter)">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M760,70 L840,100 L890,150"/>
+    </circle>
   </g>
 </svg>
