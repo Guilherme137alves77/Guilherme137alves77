@@ -5,17 +5,13 @@
       <stop offset="1" stop-color="#0D131C"/>
     </linearGradient>
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3B82F6">
-        <animate attributeName="stop-color" values="#3B82F6;#60A5FA;#3B82F6" dur="4s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0" stop-color="#3B82F6"/>
       <stop offset="0.55" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#67E8F9;#22D3EE" dur="3s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.12">
-        <animate attributeName="stop-opacity" values="0.12;0.18;0.12" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.14;0.2;0.14" dur="4s" repeatCount="indefinite"/>
       </stop>
       <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
     </radialGradient>
@@ -31,36 +27,59 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- typewriter: terminal line (char by char) -->
+    <clipPath id="termClip">
+      <rect x="40" y="282" width="0" height="24">
+        <animate attributeName="width" calcMode="discrete"
+          values="0;8;16;24;32;40;48;56;64;72;80;88;96;104;112;120;128;136;144;152;160;168;176;184;192;200;208;216;224;232;240;248;256;264;272;280;288;296;301"
+          keyTimes="0;0.03;0.06;0.09;0.12;0.15;0.18;0.21;0.24;0.27;0.30;0.33;0.36;0.39;0.42;0.45;0.48;0.51;0.54;0.57;0.60;0.63;0.66;0.69;0.72;0.75;0.78;0.81;0.84;0.87;0.90;0.93;0.95;0.97;0.99;1"
+          dur="2.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- title reveal (slow wipe, professional) -->
+    <clipPath id="titleClip">
+      <rect x="280" y="95" width="0" height="80">
+        <animate attributeName="width" values="0;650" calcMode="spline" keySplines="0.25 1 0.5 1" dur="1.4s" fill="freeze" begin="0.4s"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="subClip">
+      <rect x="360" y="196" width="0" height="26">
+        <animate attributeName="width" values="0;480" dur="1s" fill="freeze" begin="1.9s"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <!-- background -->
   <rect width="1200" height="340" fill="url(#bgGrad)"/>
-  
-  <!-- animated scanlines -->
-  <g opacity="0.03">
-    <rect width="1200" height="2" fill="#3B82F6">
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,340;0,0" dur="8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  
+
   <!-- dots pattern -->
   <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
     <circle cx="1.5" cy="1.5" r="1.5" fill="#1C2733"/>
   </pattern>
   <rect width="1200" height="340" fill="url(#dots)"/>
-  
+
   <!-- glow -->
   <rect width="1200" height="340" fill="url(#glow)"/>
+
+  <!-- animated scanline -->
+  <g opacity="0.045">
+    <rect width="1200" height="2" fill="#3B82F6">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,340;0,0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <!-- top/bottom lines -->
   <rect x="0" y="0" width="1200" height="2" fill="url(#lineGrad)"/>
   <rect x="0" y="338" width="1200" height="2" fill="url(#lineGrad)" opacity="0.4"/>
 
-  <!-- math formulas — subtle background -->
-  <g font-family="'Courier New',ui-monospace,monospace" fill="#3B82F6" opacity="0.06">
+  <!-- math formulas — visible background -->
+  <g font-family="'Courier New',ui-monospace,monospace" fill="#60A5FA" opacity="0.4">
     <text x="80" y="60" font-size="15">H = -Σ p·log₂(p)</text>
     <text x="850" y="55" font-size="14">σ(z) = 1 / (1 + e⁻ᶻ)</text>
-    <text x="90" y="300" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
+    <text x="90" y="305" font-size="13">0b1010 &lt;&lt; 2 = 0b101000</text>
     <text x="800" y="310" font-size="13">01001000 01100101</text>
     <text x="100" y="170" font-size="12">L = -[y·log(ŷ) + (1-y)·log(1-ŷ)]</text>
     <text x="870" y="180" font-size="13">z = w·x + b</text>
@@ -68,31 +87,30 @@
     <text x="920" y="250" font-size="12">0xDEADBEEF</text>
   </g>
 
-  <!-- animated network nodes -->
+  <!-- prominent hex line (cybersecurity-ish) -->
+  <g font-family="ui-monospace,SFMono-Regular,monospace" font-size="13" fill="#3B82F6" opacity="0.5">
+    <text x="330" y="285">0xFE 0xED 0xFA 0xCE</text>
+    <text x="520" y="285" opacity="0.35">memcpy(&amp;buf, data, sizeof)</text>
+  </g>
+
+  <!-- network nodes -->
   <g opacity="0.7">
-    <!-- connecting lines -->
     <line x1="940" y1="60" x2="1040" y2="120" stroke="#202B38" stroke-width="1.5"/>
     <line x1="1040" y1="120" x2="1120" y2="80" stroke="#202B38" stroke-width="1.5"/>
     <line x1="1040" y1="120" x2="1100" y2="200" stroke="#202B38" stroke-width="1.5"/>
     <line x1="1100" y1="200" x2="1010" y2="210" stroke="#202B38" stroke-width="1.5"/>
     <line x1="940" y1="60" x2="1010" y2="210" stroke="#3B82F6" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.55;0.3" dur="3s" repeatCount="indefinite"/>
     </line>
-    
-    <!-- nodes with pulse -->
     <circle cx="940" cy="60" r="3" fill="#202B38"/>
     <circle cx="1040" cy="120" r="3.5" fill="#3B82F6" opacity="0.7" filter="url(#glowFilter)">
       <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1120" cy="80" r="3" fill="#202B38"/>
     <circle cx="1100" cy="200" r="3" fill="#202B38"/>
     <circle cx="1010" cy="210" r="3" fill="#22D3EE" opacity="0.7" filter="url(#glowFilter)">
       <animate attributeName="r" values="3;4.5;3" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    
-    <!-- data packet animation -->
     <circle r="2" fill="#3B82F6" filter="url(#glowFilter)">
       <animateMotion dur="3s" repeatCount="indefinite" path="M940,60 L1040,120 L1100,200 L1010,210"/>
     </circle>
@@ -102,55 +120,63 @@
   </g>
 
   <!-- hex / network faint -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B98A8" opacity="0.22">
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B98A8" opacity="0.3">
     <text x="150" y="70">0x7F 0x45 0x4C 0x46</text>
     <text x="150" y="88">eth0: 10.0.2.15</text>
     <text x="950" y="250">0x080C12 · 0x3B82F6</text>
     <text x="950" y="268">tcp/443 → ESTABLISHED</text>
   </g>
 
-  <!-- terminal hint with typing animation -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
-    <text x="40" y="300" fill="#8B98A8">$ </text>
-    <text x="58" y="300" fill="#E6EDF3">./init.sh</text>
-    <text x="150" y="300" fill="#8B98A8">--target</text>
-    <text x="232" y="300" fill="#3B82F6">cybersecurity</text>
-    
-    <!-- blinking cursor -->
-    <rect x="352" y="287" width="8" height="16" fill="#3B82F6" opacity="0.85">
-      <animate attributeName="opacity" values="0.85;0;0.85" dur="1s" repeatCount="indefinite"/>
-    </rect>
+  <!-- title (professional wipe reveal) -->
+  <g clip-path="url(#titleClip)">
+    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
   </g>
 
-  <!-- title -->
-  <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="6" fill="url(#titleGrad)" filter="url(#glowFilter)">GUILHERME ALVES</text>
-
-  <rect x="540" y="177" width="120" height="2.5" rx="1.25" fill="url(#titleGrad)" opacity="0.85"/>
+  <rect x="540" y="172" width="120" height="2.5" rx="1.25" fill="url(#titleGrad)" opacity="0">
+    <animate attributeName="opacity" values="0;0.85" dur="0.4s" fill="freeze" begin="1.9s"/>
+  </rect>
 
   <!-- subtitle -->
-  <text x="600" y="216" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" letter-spacing="2" fill="#8B98A8">Cybersecurity Student  ·  Developer  ·  Linux</text>
+  <g clip-path="url(#subClip)">
+    <text x="600" y="212" text-anchor="middle" font-family="'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" letter-spacing="2" fill="#8B98A8">Cybersecurity Student  ·  Developer  ·  Linux</text>
+  </g>
 
-  <!-- animated chips -->
+  <!-- terminal: real typewriter -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+    <g clip-path="url(#termClip)">
+      <text x="40" y="300" fill="#8B98A8">$ </text>
+      <text x="58" y="300" fill="#E6EDF3">./init.sh</text>
+      <text x="150" y="300" fill="#8B98A8">--target</text>
+      <text x="232" y="300" fill="#3B82F6">cybersecurity</text>
+    </g>
+  </g>
+
+  <!-- cursor: blinks during/after typing -->
+  <rect x="352" y="287" width="8" height="16" fill="#3B82F6" opacity="0">
+    <animate attributeName="opacity" values="0;0.9;0;0.9;0;0.9" dur="0.8s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- chips (fade in after everything) -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" text-anchor="middle" letter-spacing="1">
     <text x="430" y="258" fill="#3B82F6" opacity="0">
       [ cybersecurity ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.5s"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.2s"/>
     </text>
     <text x="530" y="258" fill="#8B98A8" letter-spacing="0" opacity="0">
       ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.8s"/>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="3.5s"/>
     </text>
     <text x="610" y="258" fill="#22D3EE" opacity="0">
       [ python ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="1s"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="3.7s"/>
     </text>
     <text x="690" y="258" fill="#8B98A8" letter-spacing="0" opacity="0">
       ×
-      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="1.3s"/>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="4s"/>
     </text>
     <text x="770" y="258" fill="#60A5FA" opacity="0">
       [ C ]
-      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="1.5s"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="4.2s"/>
     </text>
   </g>
 </svg>

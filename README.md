@@ -7,56 +7,29 @@
   <img src="assets/header.svg" width="100%" alt="Guilherme Alves — Cybersecurity Student · Developer" />
 </p>
 
-<p align="center">
-  <em>Caderno público de estudos em cibersegurança.</em><br/>
-  Este GitHub registra o que estou aprendendo, os experimentos que desenvolvo
-  e como transformo teoria em código.
-</p>
-
 ---
 
 ## `// foco atual`
 
-| Foco                       | Andamento          |
-| -------------------------- | ------------------ |
-| Cybersecurity              | ██████████████░░░░ |
-| Python · Automação         | ████████████████░░ |
-| Low Level (C · Assembly)   | ██████████░░░░░░░░ |
-| Redes                      | ███████████░░░░░░░ |
-
-Roteiro organizado em **M0 → M25** — dos fundamentos da computação ao *security research*:
-
-```text
-Fundamentos → Bits/Binário/Hex → C & Memória → Assembly & Debugging
-→ Exploit Dev → RE & Malware → Redes → Web Security
-→ Blue Team / SOC → DFIR & Forense → CTF & Research
-```
+<p align="center">
+  <img src="assets/langs/focus.svg" width="90%" alt="Foco atual" />
+</p>
 
 ---
 
 ## `// linguagens`
 
-Níveis medidos pela evolução real do meu código, não por autoavaliação.
-
-| Linguagem    | Nível            | Progresso                              |
-| ------------ | ---------------- | -------------------------------------- |
-| Python       | Iniciante/Inter  | ![Python](assets/langs/python.svg)     |
-| HTML / CSS   | Intermediário    | ![HTML](assets/langs/html.svg)         |
-| JavaScript   | Iniciante/Inter  | ![JS](assets/langs/javascript.svg)     |
-| Node.js      | Iniciante        | ![Node](assets/langs/node.svg)         |
-| Bash / Shell | Iniciante/Inter  | ![Bash](assets/langs/bash.svg)         |
-| SQL (SQLite) | Iniciante        | ![SQL](assets/langs/sql.svg)           |
-| Lua          | Iniciante        | ![Lua](assets/langs/lua.svg)           |
-| C            | Iniciante        | ![C](assets/langs/c.svg)               |
+<p align="center">
+  <img src="assets/langs/skills.svg" width="90%" alt="Linguagens e níveis" />
+</p>
 
 ---
 
 ## `// ferramentas & ambiente`
 
-**Sistemas** `Linux (Fedora)` `Git` `Docker`
-**Low Level** `GCC` `xxd` `od` `file`
-**Cyber** `Wireshark` `MITRE ATT&CK` `TryHackMe` `Hack The Box` `PortSwigger`
-**Em estudo** `Assembly x86` `GDB` `radare2`
+<p align="center">
+  <img src="assets/langs/tools.svg" width="90%" alt="Ferramentas e ambiente" />
+</p>
 
 ---
 
