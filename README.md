@@ -9,6 +9,14 @@
 
 ---
 
+## `// whoami`
+
+<p align="center">
+  <img src="assets/langs/whoami.svg" width="90%" alt="whoami — identidade técnica" />
+</p>
+
+---
+
 ## `// stack`
 
 <p align="center">
@@ -75,8 +83,6 @@ Dias 1–4 concluídos · estudando representação de dados:
 Learn → Build → Break → Understand → Document
 ```
 
-Não quero só usar ferramentas — quero entender **o que acontece por baixo delas**.
-
 ---
 
 ## `// contato`
@@ -84,15 +90,3 @@ Não quero só usar ferramentas — quero entender **o que acontece por baixo de
 - GitHub: [Guilherme137alves77](https://github.com/Guilherme137alves77)
 - LinkedIn: [Guilherme Alves](https://www.linkedin.com/in/guilherme-alves-3715a3362)
 - Portfolio: [Cyber Portfolio](https://guilherme137alves77.github.io/cyber-portfolio/)
-
----
-
-```text
-$ whoami
-
-guilherme@security-lab
-Cybersecurity student
-Developer
-Linux user
-Always learning.
-```
