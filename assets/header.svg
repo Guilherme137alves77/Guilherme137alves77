@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Guilherme Alves — Cybersecurity Student · Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="guilherme.json.dev — Cybersecurity Student · Developer">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#080C12"/>
@@ -62,7 +62,7 @@
 
   <!-- title -->
   <g clip-path="url(#tClip)">
-    <text x="600" y="155" text-anchor="middle" font-family="sans-serif" font-size="50" font-weight="700" letter-spacing="4" fill="url(#titleGrad)">GUILHERME ALVES</text>
+    <text x="600" y="155" text-anchor="middle" font-family="sans-serif" font-size="40" font-weight="700" letter-spacing="2" fill="url(#titleGrad)">guilherme.json.dev</text>
   </g>
   <rect x="535" y="180" width="130" height="2.5" rx="1.25" fill="url(#titleGrad)"/>
 
