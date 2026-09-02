@@ -45,27 +45,27 @@ Fundamentos → Bits/Binário/Hex → C & Memória → Assembly & Debugging
 
 ## `// linguagens`
 
-| Linguagem    | Nível          | Evidência                                            |
-| ------------ | -------------- | ---------------------------------------------------- |
-| Python       | Intermediário  | AEGIS, sentinel-firewall, AuthGym, ferramentas       |
-| HTML / CSS   | Intermediário  | Barber-site, portfolios                              |
-| JavaScript   | Intermediário  | Front-end: Firewall.js, Lab-Cyber                    |
-| Node.js      | Em construção  | Express/Fastify: Secure E-commerce Lab               |
-| Bash / Shell | Básico/Inter  | Automação Linux, Hyprland config                     |
-| SQL (SQLite) | Básico         | Helpers + seed runner                                |
-| Lua          | Básico         | LÖVE (StreetKick), configs Hyprland                 |
-| C            | Em estudo      | Fundamentos: memória, inteiros, endianness           |
+| Linguagem    | Nível            | Evidência                                            |
+| ------------ | ---------------- | ---------------------------------------------------- |
+| Python       | Iniciante/Inter  | AEGIS, sentinel-firewall, AuthGym, ferramentas       |
+| HTML / CSS   | Intermediário    | Barber-site, portfolios                              |
+| JavaScript   | Iniciante/Inter  | Front-end: Firewall.js, Lab-Cyber                    |
+| Node.js      | Iniciante        | Express/Fastify: Secure E-commerce Lab               |
+| Bash / Shell | Iniciante/Inter  | Automação Linux, Hyprland config                     |
+| SQL (SQLite) | Iniciante        | Helpers + seed runner                                |
+| Lua          | Iniciante        | LÖVE (StreetKick), configs Hyprland                 |
+| C            | Iniciante        | Fundamentos: memória, inteiros, endianness           |
 
 > Níveis medidos pelo **código real enviado neste perfil**, não por autoavaliação.
 
-![Python](https://img.shields.io/badge/Python-Intermedi%C3%A1rio-38BDF8?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Iniciante%2FInter-38BDF8?style=flat&logo=python&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML%2FCSS-Intermedi%C3%A1rio-38BDF8?style=flat&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Intermedi%C3%A1rio-38BDF8?style=flat&logo=javascript&logoColor=white)
-![Node](https://img.shields.io/badge/Node.js-Em%20constru%C3%A7%C3%A3o-F59E0B?style=flat&logo=nodedotjs&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-B%C3%A1sico%2FInter.-2DD4BF?style=flat&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-B%C3%A1sico-8B949E?style=flat&logo=sqlite&logoColor=white)
-![C](https://img.shields.io/badge/C-Em%20estudo-F59E0B?style=flat&logo=c&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-B%C3%A1sico-8B949E?style=flat&logo=lua&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Iniciante%2FInter-38BDF8?style=flat&logo=javascript&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-Iniciante-F59E0B?style=flat&logo=nodedotjs&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-Iniciante%2FInter-2DD4BF?style=flat&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Iniciante-8B949E?style=flat&logo=sqlite&logoColor=white)
+![C](https://img.shields.io/badge/C-Iniciante-F59E0B?style=flat&logo=c&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-Iniciante-8B949E?style=flat&logo=lua&logoColor=white)
 
 ---
 
@@ -83,36 +83,36 @@ Fundamentos → Bits/Binário/Hex → C & Memória → Assembly & Debugging
 Projetos com código real. **Status honesto**: o que está público, o que é
 local e o que está em construção.
 
-### 🛡 AEGIS — Security Automation Toolkit
+### <img src="assets/icons/aegis.svg" width="20" height="20" alt="AEGIS"/> AEGIS — Security Automation Toolkit
 Plataforma modular de **SOC / Blue Team** em Python: comandos de rede, sistema,
 logs, web, integridade e threat intel. CLI com Typer, UI com Rich, coleta via psutil.
 `Python` `Typer` `Rich` `psutil` — `● ativo (local, em breve público)`
 
-### 🔥 sentinel-firewall
+### <img src="assets/icons/sentinel.svg" width="20" height="20" alt="sentinel-firewall"/> sentinel-firewall
 Mini **Firewall & Intrusion Detection System**: análise de conexões,
 blacklist de IPs e logging de alertas em JSON. 100% autoral.
 `Python` `OOP` `JSON` — `● público`
 
-### 💪 AuthGym
+### <img src="assets/icons/authgym.svg" width="20" height="20" alt="AuthGym"/> AuthGym
 Sistema de **controle de acesso para academias** com reconhecimento facial
 (OpenCV + MediaPipe).
 `Python` `OpenCV` `MediaPipe` — `● público`
 
-### 🔍 Lab-Cyber
+### <img src="assets/icons/lab-cyber.svg" width="20" height="20" alt="Lab-Cyber"/> Lab-Cyber
 Plataforma educacional de cibersegurança com **100 desafios práticos**.
 `JavaScript` — `● público`
 
-### 🐳 Laboratório de Pentest (Docker)
+### <img src="assets/icons/docker-lab.svg" width="20" height="20" alt="Docker Lab"/> Laboratório de Pentest (Docker)
 Ambiente **isolado** (rede interna) com Kali + DVWA + Juice Shop + Metasploitable
 para estudo de pentest e Burp Suite.
 `Shell` `Docker` `nmap` `sqlmap` — `○ local (não publicado)`
 
-### 🛒 Secure E-commerce Lab
+### <img src="assets/icons/ecommerce.svg" width="20" height="20" alt="Secure E-commerce"/> Secure E-commerce Lab
 Laboratório de **segurança web / backend** em Express: sessões, CSRF,
 validação, rate limiting e modo de treino com vulnerabilidades (IDOR, XSS).
 `Node.js` `Express` `SQLite` — `● concluído`
 
-### 🧪 Outros
+### <img src="assets/icons/others.svg" width="20" height="20" alt="Outros"/> Outros
 `StreetKick` (Lua/LÖVE) · `Studying-C` (fundamentos de C) · `Hyprland-cyber` (dotfiles Linux) ·
 `Barber-site` (HTML/CSS/JS) · `Avaliacao` (JS) · `Cyber Portfolio` (site)
 
