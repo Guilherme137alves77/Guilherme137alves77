@@ -36,27 +36,18 @@ Fundamentos → Bits/Binário/Hex → C & Memória → Assembly & Debugging
 
 ## `// linguagens`
 
-| Linguagem    | Nível            | Evidência                                            |
-| ------------ | ---------------- | ---------------------------------------------------- |
-| Python       | Iniciante/Inter  | AEGIS, sentinel-firewall, AuthGym, ferramentas       |
-| HTML / CSS   | Intermediário    | Barber-site, portfolios                              |
-| JavaScript   | Iniciante/Inter  | Front-end: Firewall.js, Lab-Cyber                    |
-| Node.js      | Iniciante        | Express/Fastify: Secure E-commerce Lab               |
-| Bash / Shell | Iniciante/Inter  | Automação Linux, Hyprland config                     |
-| SQL (SQLite) | Iniciante        | Helpers + seed runner                                |
-| Lua          | Iniciante        | LÖVE (StreetKick), configs Hyprland                 |
-| C            | Iniciante        | Fundamentos: memória, inteiros, endianness           |
+Níveis medidos pela evolução real do meu código, não por autoavaliação.
 
-> Níveis medidos pelo **código real enviado neste perfil**, não por autoavaliação.
-
-![Python](https://img.shields.io/badge/Python-Iniciante%2FInter-38BDF8?style=flat&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML%2FCSS-Intermedi%C3%A1rio-38BDF8?style=flat&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Iniciante%2FInter-38BDF8?style=flat&logo=javascript&logoColor=white)
-![Node](https://img.shields.io/badge/Node.js-Iniciante-F59E0B?style=flat&logo=nodedotjs&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-Iniciante%2FInter-2DD4BF?style=flat&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Iniciante-8B949E?style=flat&logo=sqlite&logoColor=white)
-![C](https://img.shields.io/badge/C-Iniciante-F59E0B?style=flat&logo=c&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-Iniciante-8B949E?style=flat&logo=lua&logoColor=white)
+| Linguagem    | Nível            | Progresso                              |
+| ------------ | ---------------- | -------------------------------------- |
+| Python       | Iniciante/Inter  | ![Python](assets/langs/python.svg)     |
+| HTML / CSS   | Intermediário    | ![HTML](assets/langs/html.svg)         |
+| JavaScript   | Iniciante/Inter  | ![JS](assets/langs/javascript.svg)     |
+| Node.js      | Iniciante        | ![Node](assets/langs/node.svg)         |
+| Bash / Shell | Iniciante/Inter  | ![Bash](assets/langs/bash.svg)         |
+| SQL (SQLite) | Iniciante        | ![SQL](assets/langs/sql.svg)           |
+| Lua          | Iniciante        | ![Lua](assets/langs/lua.svg)           |
+| C            | Iniciante        | ![C](assets/langs/c.svg)               |
 
 ---
 
