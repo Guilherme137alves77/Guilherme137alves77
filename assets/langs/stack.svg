@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-label="Stack técnica">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Stack técnica">
   <defs>
     <linearGradient id="stBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D131C"/>
@@ -18,107 +18,107 @@
     </linearGradient>
   </defs>
 
-  <rect x="1" y="1" width="718" height="458" rx="12" fill="url(#stBg)" stroke="#202B38"/>
+  <rect x="1" y="1" width="898" height="638" rx="14" fill="url(#stBg)" stroke="#202B38"/>
 
-  <!-- header -->
-  <rect x="1" y="1" width="718" height="48" rx="12" fill="#111923"/>
-  <rect x="1" y="24" width="718" height="25" fill="#111923"/>
-  <text x="28" y="31" font-family="monospace" font-size="16" fill="#3B82F6">// stack</text>
-  <text x="692" y="31" text-anchor="end" font-family="monospace" font-size="11" fill="#8B98A8">M0 → M25</text>
+  <rect x="1" y="1" width="898" height="60" rx="14" fill="#111923"/>
+  <rect x="1" y="30" width="898" height="31" fill="#111923"/>
+  <text x="34" y="38" font-family="monospace" font-size="18" fill="#3B82F6">// stack</text>
+  <text x="866" y="38" text-anchor="end" font-family="monospace" font-size="13" fill="#8B98A8">M0 → M25</text>
 
-  <rect x="24" y="56" width="672" height="1" fill="#202B38"/>
+  <rect x="34" y="72" width="832" height="1" fill="#202B38"/>
 
   <!-- FOCUS -->
-  <text x="28" y="80" font-family="monospace" font-size="12" fill="#8B98A8">foco atual</text>
+  <text x="34" y="102" font-family="monospace" font-size="15" fill="#8B98A8">foco atual</text>
 
-  <text x="28" y="106" font-family="monospace" font-size="13" fill="#E6EDF3">cybersecurity</text>
-  <text x="560" y="106" text-anchor="end" font-family="monospace" font-size="11" fill="#22D3EE">70%</text>
-  <rect x="28" y="114" width="532" height="4" rx="2" fill="#1C2733"/>
-  <rect x="28" y="114" width="372" height="4" rx="2" fill="url(#stBar)"/>
+  <text x="34" y="140" font-family="monospace" font-size="17" fill="#E6EDF3">cybersecurity</text>
+  <text x="680" y="140" text-anchor="end" font-family="monospace" font-size="14" fill="#22D3EE">70%</text>
+  <rect x="34" y="152" width="646" height="6" rx="3" fill="#1C2733"/>
+  <rect x="34" y="152" width="452" height="6" rx="3" fill="url(#stBar)"/>
 
-  <text x="28" y="132" font-family="monospace" font-size="13" fill="#E6EDF3">python · automação</text>
-  <text x="560" y="132" text-anchor="end" font-family="monospace" font-size="11" fill="#22D3EE">80%</text>
-  <rect x="28" y="140" width="532" height="4" rx="2" fill="#1C2733"/>
-  <rect x="28" y="140" width="426" height="4" rx="2" fill="url(#stBar)"/>
+  <text x="34" y="180" font-family="monospace" font-size="17" fill="#E6EDF3">python · automação</text>
+  <text x="680" y="180" text-anchor="end" font-family="monospace" font-size="14" fill="#22D3EE">80%</text>
+  <rect x="34" y="192" width="646" height="6" rx="3" fill="#1C2733"/>
+  <rect x="34" y="192" width="517" height="6" rx="3" fill="url(#stBar)"/>
 
-  <text x="28" y="158" font-family="monospace" font-size="13" fill="#E6EDF3">low level (c · assembly)</text>
-  <text x="560" y="158" text-anchor="end" font-family="monospace" font-size="11" fill="#8B98A8">50%</text>
-  <rect x="28" y="166" width="532" height="4" rx="2" fill="#1C2733"/>
-  <rect x="28" y="166" width="266" height="4" rx="2" fill="url(#stBar)" opacity="0.8"/>
+  <text x="34" y="220" font-family="monospace" font-size="17" fill="#E6EDF3">low level (c · assembly)</text>
+  <text x="680" y="220" text-anchor="end" font-family="monospace" font-size="14" fill="#8B98A8">50%</text>
+  <rect x="34" y="232" width="646" height="6" rx="3" fill="#1C2733"/>
+  <rect x="34" y="232" width="323" height="6" rx="3" fill="url(#stBar)" opacity="0.8"/>
 
-  <text x="28" y="184" font-family="monospace" font-size="13" fill="#E6EDF3">redes</text>
-  <text x="560" y="184" text-anchor="end" font-family="monospace" font-size="11" fill="#8B98A8">55%</text>
-  <rect x="28" y="192" width="532" height="4" rx="2" fill="#1C2733"/>
-  <rect x="28" y="192" width="293" height="4" rx="2" fill="url(#stBar)" opacity="0.8"/>
+  <text x="34" y="260" font-family="monospace" font-size="17" fill="#E6EDF3">redes</text>
+  <text x="680" y="260" text-anchor="end" font-family="monospace" font-size="14" fill="#8B98A8">55%</text>
+  <rect x="34" y="272" width="646" height="6" rx="3" fill="#1C2733"/>
+  <rect x="34" y="272" width="355" height="6" rx="3" fill="url(#stBar)" opacity="0.8"/>
 
-  <rect x="24" y="210" width="672" height="1" fill="#202B38"/>
+  <rect x="34" y="296" width="832" height="1" fill="#202B38"/>
 
   <!-- LANGUAGES -->
-  <text x="28" y="234" font-family="monospace" font-size="12" fill="#8B98A8">linguagens</text>
+  <text x="34" y="328" font-family="monospace" font-size="15" fill="#8B98A8">linguagens</text>
 
-  <text x="28" y="260" font-family="monospace" font-size="13" fill="#E6EDF3">python</text>
-  <text x="28" y="286" font-family="monospace" font-size="13" fill="#E6EDF3">html/css</text>
-  <text x="28" y="312" font-family="monospace" font-size="13" fill="#E6EDF3">javascript</text>
-  <text x="28" y="338" font-family="monospace" font-size="13" fill="#E6EDF3">bash/shell</text>
+  <text x="34" y="368" font-family="monospace" font-size="17" fill="#E6EDF3">python</text>
+  <rect x="160" y="358" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="160" y="358" width="196" height="6" rx="3" fill="url(#stBar)"/>
 
-  <text x="360" y="260" font-family="monospace" font-size="13" fill="#E6EDF3">node.js</text>
-  <text x="360" y="286" font-family="monospace" font-size="13" fill="#E6EDF3">sql (sqlite)</text>
-  <text x="360" y="312" font-family="monospace" font-size="13" fill="#E6EDF3">lua</text>
-  <text x="360" y="338" font-family="monospace" font-size="13" fill="#E6EDF3">c</text>
+  <text x="34" y="408" font-family="monospace" font-size="17" fill="#E6EDF3">html/css</text>
+  <rect x="160" y="398" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="160" y="398" width="224" height="6" rx="3" fill="url(#stBar)"/>
 
-  <!-- bars col A -->
-  <rect x="110" y="252" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="110" y="252" width="140" height="4" rx="2" fill="url(#stBar)"/>
-  <rect x="110" y="278" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="110" y="278" width="160" height="4" rx="2" fill="url(#stBar)"/>
-  <rect x="110" y="304" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="110" y="304" width="140" height="4" rx="2" fill="url(#stBar)"/>
-  <rect x="110" y="330" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="110" y="330" width="130" height="4" rx="2" fill="url(#stBar)"/>
+  <text x="34" y="448" font-family="monospace" font-size="17" fill="#E6EDF3">javascript</text>
+  <rect x="160" y="438" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="160" y="438" width="196" height="6" rx="3" fill="url(#stBar)"/>
 
-  <!-- bars col B -->
-  <rect x="420" y="252" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="420" y="252" width="80" height="4" rx="2" fill="url(#stBarIni)"/>
-  <rect x="420" y="278" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="420" y="278" width="90" height="4" rx="2" fill="url(#stBarIni)"/>
-  <rect x="420" y="304" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="420" y="304" width="80" height="4" rx="2" fill="url(#stBarIni)"/>
-  <rect x="420" y="330" width="200" height="4" rx="2" fill="#1C2733"/>
-  <rect x="420" y="330" width="70" height="4" rx="2" fill="url(#stBarIni)"/>
+  <text x="34" y="488" font-family="monospace" font-size="17" fill="#E6EDF3">bash/shell</text>
+  <rect x="160" y="478" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="160" y="478" width="182" height="6" rx="3" fill="url(#stBar)"/>
 
-  <rect x="24" y="356" width="672" height="1" fill="#202B38"/>
+  <text x="480" y="368" font-family="monospace" font-size="17" fill="#E6EDF3">node.js</text>
+  <rect x="580" y="358" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="580" y="358" width="112" height="6" rx="3" fill="url(#stBarIni)"/>
+
+  <text x="480" y="408" font-family="monospace" font-size="17" fill="#E6EDF3">sql (sqlite)</text>
+  <rect x="580" y="398" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="580" y="398" width="126" height="6" rx="3" fill="url(#stBarIni)"/>
+
+  <text x="480" y="448" font-family="monospace" font-size="17" fill="#E6EDF3">lua</text>
+  <rect x="580" y="438" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="580" y="438" width="112" height="6" rx="3" fill="url(#stBarIni)"/>
+
+  <text x="480" y="488" font-family="monospace" font-size="17" fill="#E6EDF3">c</text>
+  <rect x="580" y="478" width="280" height="6" rx="3" fill="#1C2733"/>
+  <rect x="580" y="478" width="98" height="6" rx="3" fill="url(#stBarIni)"/>
+
+  <rect x="34" y="514" width="832" height="1" fill="#202B38"/>
 
   <!-- TOOLS -->
-  <text x="28" y="380" font-family="monospace" font-size="12" fill="#8B98A8">ambiente</text>
+  <text x="34" y="544" font-family="monospace" font-size="15" fill="#8B98A8">ambiente</text>
 
-  <g font-family="monospace" font-size="12">
-    <rect x="28" y="390" width="66" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="40" y="407" fill="#E6EDF3">linux</text>
-    <rect x="100" y="390" width="54" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="112" y="407" fill="#E6EDF3">git</text>
-    <rect x="160" y="390" width="72" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="172" y="407" fill="#E6EDF3">docker</text>
-    <rect x="238" y="390" width="54" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="250" y="407" fill="#E6EDF3">gcc</text>
-    <rect x="298" y="390" width="52" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="310" y="407" fill="#E6EDF3">xxd</text>
-    <rect x="356" y="390" width="50" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="368" y="407" fill="#E6EDF3">od</text>
-    <rect x="98" y="422" width="52" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="110" y="439" fill="#E6EDF3">wireshark</text>
-    <rect x="156" y="422" width="104" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="168" y="439" fill="#E6EDF3">mitre att&amp;ck</text>
-    <rect x="266" y="422" width="102" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="278" y="439" fill="#E6EDF3">tryhackme</text>
-    <rect x="374" y="422" width="104" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="386" y="439" fill="#E6EDF3">hackthebox</text>
-    <rect x="484" y="422" width="104" height="26" rx="6" fill="url(#stChip)" stroke="#202B38"/>
-    <text x="496" y="439" fill="#E6EDF3">portswigger</text>
+  <g font-family="monospace" font-size="14">
+    <rect x="34" y="556" width="78" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="48" y="576" fill="#E6EDF3">linux</text>
+    <rect x="120" y="556" width="62" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="134" y="576" fill="#E6EDF3">git</text>
+    <rect x="190" y="556" width="84" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="204" y="576" fill="#E6EDF3">docker</text>
+    <rect x="282" y="556" width="62" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="296" y="576" fill="#E6EDF3">gcc</text>
+    <rect x="352" y="556" width="62" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="366" y="576" fill="#E6EDF3">xxd</text>
+    <rect x="422" y="556" width="58" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="436" y="576" fill="#E6EDF3">od</text>
+    <rect x="488" y="556" width="66" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="502" y="576" fill="#E6EDF3">file</text>
+    <rect x="562" y="556" width="118" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="576" y="576" fill="#E6EDF3">wireshark</text>
   </g>
 
-  <!-- em estudo -->
-  <g font-family="monospace" font-size="11">
-    <text x="28" y="405" fill="#22D3EE">em estudo:</text>
-    <text x="28" y="439" fill="#3B82F6" opacity="0.9">assembly x86 · gdb · radare2</text>
+  <g font-family="monospace" font-size="14">
+    <rect x="34" y="594" width="134" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="48" y="614" fill="#E6EDF3">mitre att&amp;ck</text>
+    <rect x="176" y="594" width="118" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="190" y="614" fill="#E6EDF3">tryhackme</text>
+    <rect x="302" y="594" width="122" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="316" y="614" fill="#E6EDF3">hackthebox</text>
+    <rect x="432" y="594" width="126" height="30" rx="7" fill="url(#stChip)" stroke="#202B38"/>
+    <text x="446" y="614" fill="#E6EDF3">portswigger</text>
   </g>
 </svg>
