@@ -12,7 +12,7 @@
 ## `// whoami`
 
 <p align="center">
-  <img src="assets/langs/whoami.svg" width="90%" alt="whoami — identidade técnica" />
+  <img src="assets/langs/whoami.svg" width="75%" alt="whoami — guilherme@security-lab" />
 </p>
 
 ---
