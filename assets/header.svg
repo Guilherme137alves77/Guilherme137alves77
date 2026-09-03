@@ -74,6 +74,14 @@
 
   <!-- typewriter line -->
   <g font-family="monospace" font-size="14" text-anchor="middle">
-    <text x="600" y="300" fill="#8B98A8" opacity="0">building security knowledge · always learning.</text>
+    <clipPath id="twClip">
+      <rect x="0" y="290" width="0" height="18">
+        <animate attributeName="width" values="0;560" calcMode="spline" keySplines="0.25 1 0.5 1" dur="2.4s" fill="freeze" begin="1.5s"/>
+      </rect>
+    </clipPath>
+    <text x="320" y="300" clip-path="url(#twClip)" fill="#8B98A8">building security knowledge · always learning.</text>
+    <rect x="320" y="290" width="9" height="16" fill="#22D3EE">
+      <animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1" dur="0.6s" repeatCount="indefinite" begin="1.5s"/>
+    </rect>
   </g>
 </svg>
