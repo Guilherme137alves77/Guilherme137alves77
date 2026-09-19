@@ -4,26 +4,20 @@
 -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — Estudante de Sistemas de Informação · QA Automation" />
+  <img src="assets/header.svg" width="100%" alt="Guilherme Alves — QA Automation" />
 </p>
 
 ---
 
 ## `// resumo`
 
-Estudante de Sistemas de Informação, em transição de carreira para tecnologia.
-
-Foco atual: **QA Automation** — testar software com método e, aos poucos, com do mindset de segurança.
+Foco atual: **QA Automation** — testar software com método e, aos poucos, com o mindset de segurança.
 
 ---
 
 ## `// tecnologias`
 
-<p align="center">
-  <img src="assets/langs/whoami.svg" width="70%" alt="Python · Linux · Java · Automação" />
-</p>
-
-Python · Linux · Java · Automação
+Python · Linux · Java · Automação de testes
 
 ---
 
