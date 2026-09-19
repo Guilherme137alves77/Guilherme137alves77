@@ -9,19 +9,17 @@
 
 ---
 
-## `// resumo`
-
 Foco atual: **QA Automation** — testar software com método e, aos poucos, com o mindset de segurança.
 
 ---
 
-## `// tecnologias`
+## `tecnologias`
 
 Python · Linux · Java · Automação de testes
 
 ---
 
-## `// contato`
+## `contato`
 
 - GitHub: [Guilherme137alves77](https://github.com/Guilherme137alves77)
 - LinkedIn: [Guilherme Alves](https://www.linkedin.com/in/guilherme-alves-3715a3362)
