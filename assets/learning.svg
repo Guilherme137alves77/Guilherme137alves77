@@ -1,65 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-label="Módulo atual — fundamentos de bits, método, próximos tópicos">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-label="Módulo atual — Java, método, próximos tópicos">
 
   <!-- ===== MÓDULO ATUAL ===== -->
   <g>
-    <rect x="30" y="25" width="360" height="380" rx="12" fill="#111820" stroke="#1C2733"/>
-    <rect x="54" y="52" width="8" height="8" fill="#38BDF8"/>
-    <text x="74" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#38BDF8">MÓDULO ATUAL</text>
-    <circle cx="364" cy="56" r="3" fill="#38BDF8" opacity="0.8"/>
-    <rect x="54" y="78" width="312" height="1" fill="#1C2733"/>
+    <rect x="30" y="25" width="360" height="380" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="54" y="52" width="8" height="8" fill="#58A6FF"/>
+    <text x="74" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#58A6FF">MÓDULO ATUAL</text>
+    <circle cx="364" cy="56" r="3" fill="#58A6FF" opacity="0.8"/>
+    <rect x="54" y="78" width="312" height="1" fill="#30363D"/>
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#E6EDF3">
-      <rect x="56" y="95" width="5" height="5" fill="#38BDF8"/><text x="74" y="112">binário · decimal · hex · octal</text>
-      <rect x="56" y="127" width="5" height="5" fill="#38BDF8"/><text x="74" y="144">complemento de dois</text>
-      <rect x="56" y="159" width="5" height="5" fill="#38BDF8"/><text x="74" y="176">inteiros com sinal</text>
-      <rect x="56" y="191" width="5" height="5" fill="#38BDF8"/><text x="74" y="208">overflow · underflow</text>
-      <rect x="56" y="223" width="5" height="5" fill="#38BDF8"/><text x="74" y="240">representação em bits</text>
-      <rect x="56" y="255" width="5" height="5" fill="#38BDF8"/><text x="74" y="272">fundamentos na prática</text>
+      <rect x="56" y="95" width="5" height="5" fill="#58A6FF"/><text x="74" y="112">estrutura sequencial</text>
+      <rect x="56" y="127" width="5" height="5" fill="#58A6FF"/><text x="74" y="144">tipos primitivos · strings</text>
+      <rect x="56" y="159" width="5" height="5" fill="#58A6FF"/><text x="74" y="176">condicionais (if/else)</text>
+      <rect x="56" y="191" width="5" height="5" fill="#58A6FF"/><text x="74" y="208">laços (for · while)</text>
+      <rect x="56" y="223" width="5" height="5" fill="#58A6FF"/><text x="74" y="240">vetores · arrays</text>
+      <rect x="56" y="255" width="5" height="5" fill="#58A6FF"/><text x="74" y="272">revisão: codar antes de olhar</text>
     </g>
 
-    <rect x="54" y="304" width="312" height="1" fill="#1C2733"/>
-    <text x="54" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#6E7681">~ dia 1 ✓ · dia 2 hoje</text>
+    <rect x="54" y="304" width="312" height="1" fill="#30363D"/>
+    <text x="54" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E">~ módulo 1/6 · em andamento</text>
   </g>
 
   <!-- ===== MÉTODO ===== -->
   <g>
-    <rect x="420" y="25" width="360" height="380" rx="12" fill="#111820" stroke="#1C2733"/>
-    <rect x="444" y="52" width="8" height="8" fill="#2DD4BF"/>
-    <text x="464" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#2DD4BF">MÉTODO</text>
-    <circle cx="754" cy="56" r="3" fill="#2DD4BF" opacity="0.8"/>
-    <rect x="444" y="78" width="312" height="1" fill="#1C2733"/>
+    <rect x="420" y="25" width="360" height="380" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="444" y="52" width="8" height="8" fill="#3FB950"/>
+    <text x="464" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#3FB950">MÉTODO</text>
+    <circle cx="754" cy="56" r="3" fill="#3FB950" opacity="0.8"/>
+    <rect x="444" y="78" width="312" height="1" fill="#30363D"/>
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#E6EDF3">
-      <rect x="446" y="95" width="5" height="5" fill="#2DD4BF"/><text x="464" y="112">método feynman</text>
-      <rect x="446" y="127" width="5" height="5" fill="#2DD4BF"/><text x="464" y="144">explicar com as minhas palavras</text>
-      <rect x="446" y="159" width="5" height="5" fill="#2DD4BF"/><text x="464" y="176">revisão espaçada</text>
-      <rect x="446" y="191" width="5" height="5" fill="#2DD4BF"/><text x="464" y="208">recursos 100% gratuitos</text>
-      <rect x="446" y="223" width="5" height="5" fill="#2DD4BF"/><text x="464" y="240">1 tópico por dia</text>
-      <rect x="446" y="255" width="5" height="5" fill="#2DD4BF"/><text x="464" y="272">constância</text>
+      <rect x="446" y="95" width="5" height="5" fill="#3FB950"/><text x="464" y="112">método feynman</text>
+      <rect x="446" y="127" width="5" height="5" fill="#3FB950"/><text x="464" y="144">explicar com as minhas palavras</text>
+      <rect x="446" y="159" width="5" height="5" fill="#3FB950"/><text x="464" y="176">revisão espaçada</text>
+      <rect x="446" y="191" width="5" height="5" fill="#3FB950"/><text x="464" y="208">recursos 100% gratuitos</text>
+      <rect x="446" y="223" width="5" height="5" fill="#3FB950"/><text x="464" y="240">1 tópico por dia</text>
+      <rect x="446" y="255" width="5" height="5" fill="#3FB950"/><text x="464" y="272">constância</text>
     </g>
 
-    <rect x="444" y="304" width="312" height="1" fill="#1C2733"/>
-    <text x="444" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#6E7681">~ como eu aprendo</text>
+    <rect x="444" y="304" width="312" height="1" fill="#30363D"/>
+    <text x="444" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E">~ como eu aprendo</text>
   </g>
 
   <!-- ===== PRÓXIMO NO MÓDULO ===== -->
   <g>
-    <rect x="810" y="25" width="360" height="380" rx="12" fill="#111820" stroke="#1C2733"/>
-    <rect x="834" y="52" width="8" height="8" fill="#7DD3FC"/>
-    <text x="854" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#7DD3FC">PRÓXIMO NO MÓDULO</text>
-    <circle cx="1144" cy="56" r="3" fill="#7DD3FC" opacity="0.8"/>
-    <rect x="834" y="78" width="312" height="1" fill="#1C2733"/>
+    <rect x="810" y="25" width="360" height="380" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="834" y="52" width="8" height="8" fill="#79C0FF"/>
+    <text x="854" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="2" fill="#79C0FF">PRÓXIMO NO MÓDULO</text>
+    <circle cx="1144" cy="56" r="3" fill="#79C0FF" opacity="0.8"/>
+    <rect x="834" y="78" width="312" height="1" fill="#30363D"/>
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#E6EDF3">
-      <rect x="836" y="95" width="5" height="5" fill="#7DD3FC"/><text x="854" y="112">endianness</text>
-      <rect x="836" y="127" width="5" height="5" fill="#7DD3FC"/><text x="854" y="144">ascii · utf-8</text>
-      <rect x="836" y="159" width="5" height="5" fill="#7DD3FC"/><text x="854" y="176">ieee 754</text>
-      <rect x="836" y="191" width="5" height="5" fill="#7DD3FC"/><text x="854" y="208">hexdump · xxd</text>
-      <rect x="836" y="223" width="5" height="5" fill="#7DD3FC"/><text x="854" y="240">análise de bytes</text>
-      <rect x="836" y="255" width="5" height="5" fill="#7DD3FC"/><text x="854" y="272">bit a bit</text>
+      <rect x="836" y="95" width="5" height="5" fill="#79C0FF"/><text x="854" y="112">POO — classes e objetos</text>
+      <rect x="836" y="127" width="5" height="5" fill="#79C0FF"/><text x="854" y="144">encapsulamento · herança</text>
+      <rect x="836" y="159" width="5" height="5" fill="#79C0FF"/><text x="854" y="176">ArrayList</text>
+      <rect x="836" y="191" width="5" height="5" fill="#79C0FF"/><text x="854" y="208">exceções</text>
+      <rect x="836" y="223" width="5" height="5" fill="#79C0FF"/><text x="854" y="240">JUnit — testes unitários</text>
+      <rect x="836" y="255" width="5" height="5" fill="#79C0FF"/><text x="854" y="272">automação web (Selenium)</text>
     </g>
 
-    <rect x="834" y="304" width="312" height="1" fill="#1C2733"/>
-    <text x="834" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#6E7681">~ dia 3 em diante</text>
+    <rect x="834" y="304" width="312" height="1" fill="#30363D"/>
+    <text x="834" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8B949E">~ módulos 2-6</text>
   </g>
 </svg>

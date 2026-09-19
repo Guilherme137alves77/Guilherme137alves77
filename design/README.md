@@ -1,28 +1,28 @@
-# Design — GitHub Profile: Cybersecurity Engineering Lab
+# Design — GitHub Profile: QA Automation Lab
 
 Identidade: **Dark Technical Minimalism**.
-A ideia é parecer um laboratório pessoal de segurança, não um template nem um
-perfil "hacker" genérico. Sem caveiras, sem chuva de código, sem neon exagerado.
+A ideia é parecer um laboratório pessoal de **QA Automation**, que pesquisa
+\"por que quebrou?\" com método — não um template nem um perfil "hacker" genérico.
+Narrativa: QA como porta de entrada, segurança (pentest) como destino.
 
 ---
 
 ## 1. Paleta
 
-| Token             | Hex       | Uso                                        |
-| ----------------- | --------- | ------------------------------------------ |
-| Background        | `#080B10` | fundo geral                                |
-| Secondary         | `#0D1117` | painéis, janela do terminal                |
-| Cards             | `#111820` | cards, camadas, chips                      |
-| Border            | `#1C2733` | bordas, linhas, grid de pontos             |
-| Primary           | `#38BDF8` | destaques, links, prompts `$`, `// labels` |
-| Secondary accent  | `#2DD4BF` | teal — outputs, "in progress", status      |
-| Text              | `#E6EDF3` | texto principal                            |
-| Muted             | `#8B949E` | texto secundário, hex/tags                 |
-| Light blue (dev)  | `#7DD3FC` | categoria Development                       |
-| Green             | `#4ADE80` | apenas pontual: `building...`              |
-| Amber             | `#F59E0B` | apenas pontual: Git e MITRE ATT&CK no lab  |
+| Token            | Hex       | Uso                                        |
+| ---------------- | --------- | ------------------------------------------ |
+| Background       | `#080C12` | fundo geral                                |
+| Secondary        | `#0D1117` | painéis, janela do terminal                |
+| Cards            | `#161B22` | cards, camadas, chips                      |
+| Border           | `#30363D` | bordas, linhas, grid de pontos             |
+| Primary          | `#58A6FF` | destaques, links, prompts `$`, `// labels` |
+| Status           | `#3FB950` | outputs, "em andamento", status            |
+| Text             | `#E6EDF3` | texto principal                            |
+| Muted            | `#8B949E` | texto secundário, hex/tags                 |
+| Light blue (dev) | `#79C0FF` | categoria Development                       |
+| Amber            | `#D29922` | apenas pontual (Git/chips)                 |
 
-Regra: azul/ciano dominam. Verde e âmbar aparecem só em pontos específicos.
+Regra: azul/cinza dominam; verde só em status. Sem neon, sem "cara de hacker".
 
 ## 2. Tipografia
 
@@ -41,7 +41,7 @@ github-profile/
 │   ├── terminal.svg           → identidade: whoami/focus/system/learning/status
 │   ├── architecture.svg       → stack hardware → automação
 │   ├── learning.svg           → painel "currently learning" (3 colunas)
-│   ├── timeline.svg           → roadmap "cybersecurity journey"
+│   ├── timeline.svg           → roadmap "qa → security" (fundamentos de teste como porta para pentest)
 │   └── lab.svg                → "security lab" (tools + plataformas)
 ├── scripts/
 │   ├── config.json            → seus dados (usuário, linkedin, portfolio)
@@ -111,9 +111,10 @@ Ajustes manuais:
 
 ## 8. Estrutura narrativa
 
-Header → About (`architecture.svg`) → Currently Learning (`learning.svg`) →
-Selected Projects → Cybersecurity Journey (`timeline.svg`) → Security Lab
-(`lab.svg`) → GitHub Stats → Identity (`terminal.svg`) → Footer.
+Header → Foco (bloco no README) → Stack (`stack.svg`) → Trilha de Estudos →
+Selected Projects (destaque para `java-qa` → projetos de segurança) →
+Journey `qa → security` (`timeline.svg`) → Security Lab (`lab.svg`) →
+GitHub Stats → Identity (`terminal.svg`) → Footer.
 
 A ordem conta a história: quem sou → o que estudo → o que construo → onde
 estou → com que ferramentas → números → identidade → despedida.
